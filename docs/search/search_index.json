@@ -127,11 +127,21 @@
         }, 
         {
             "location": "/team/core-team/", 
-            "text": "", 
+            "text": "Core Team\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNatarajan Ganapathi\n\n\nSaravanan K J", 
             "title": "Core"
         }, 
         {
+            "location": "/team/core-team/#core-team", 
+            "text": "Natarajan Ganapathi  Saravanan K J", 
+            "title": "Core Team"
+        }, 
+        {
             "location": "/team/contributors/", 
+            "text": "Contributors", 
+            "title": "Contributors"
+        }, 
+        {
+            "location": "/team/contributors/#contributors", 
             "text": "", 
             "title": "Contributors"
         }, 
