@@ -1,0 +1,149 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "MISSION I/0\n\n\nOverview", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#mission-i0", 
+            "text": "", 
+            "title": "MISSION I/0"
+        }, 
+        {
+            "location": "/#overview", 
+            "text": "", 
+            "title": "Overview"
+        }, 
+        {
+            "location": "/home/get-started/", 
+            "text": "", 
+            "title": "Get started"
+        }, 
+        {
+            "location": "/cli/overview/", 
+            "text": "Mission.cli\n\n\nOverview\n\n\nHow to install\n\n\nLocal installation\n\n\nnpm i mission.cli -g\n\n\n\n\nGlobal installation\n\n\nnpm i mission.cli -g\n\n\n\n\nCommands\n\n\nnew Command\n\n\nmio new \nservice-name\n\n\n\n\n\n\nExample\n\n\nmio new OrderApi\n\n\n\n\n\ninit Command\n\n\nmio init", 
+            "title": "Overview"
+        }, 
+        {
+            "location": "/cli/overview/#missioncli", 
+            "text": "", 
+            "title": "Mission.cli"
+        }, 
+        {
+            "location": "/cli/overview/#overview", 
+            "text": "", 
+            "title": "Overview"
+        }, 
+        {
+            "location": "/cli/overview/#how-to-install", 
+            "text": "", 
+            "title": "How to install"
+        }, 
+        {
+            "location": "/cli/overview/#local-installation", 
+            "text": "npm i mission.cli -g", 
+            "title": "Local installation"
+        }, 
+        {
+            "location": "/cli/overview/#global-installation", 
+            "text": "npm i mission.cli -g", 
+            "title": "Global installation"
+        }, 
+        {
+            "location": "/cli/overview/#commands", 
+            "text": "", 
+            "title": "Commands"
+        }, 
+        {
+            "location": "/cli/overview/#new-command", 
+            "text": "mio new  service-name   Example  mio new OrderApi", 
+            "title": "new Command"
+        }, 
+        {
+            "location": "/cli/overview/#init-command", 
+            "text": "mio init", 
+            "title": "init Command"
+        }, 
+        {
+            "location": "/cli/command/new/", 
+            "text": "", 
+            "title": "new"
+        }, 
+        {
+            "location": "/cli/command/docker/", 
+            "text": "", 
+            "title": "docker"
+        }, 
+        {
+            "location": "/core/overview/", 
+            "text": "", 
+            "title": "Overview"
+        }, 
+        {
+            "location": "/common/overview/", 
+            "text": "", 
+            "title": "Overviewd"
+        }, 
+        {
+            "location": "/template/overview/", 
+            "text": "", 
+            "title": "Overview"
+        }, 
+        {
+            "location": "/seed/overview/", 
+            "text": "", 
+            "title": "Overview"
+        }, 
+        {
+            "location": "/home/features/", 
+            "text": "Features\n\n\nCross Platform\n\n\nSpeed and Performance\n\n\nProductivity\n\n\nFull Development Story", 
+            "title": ""
+        }, 
+        {
+            "location": "/home/features/#features", 
+            "text": "", 
+            "title": "Features"
+        }, 
+        {
+            "location": "/home/features/#cross-platform", 
+            "text": "", 
+            "title": "Cross Platform"
+        }, 
+        {
+            "location": "/home/features/#speed-and-performance", 
+            "text": "", 
+            "title": "Speed and Performance"
+        }, 
+        {
+            "location": "/home/features/#productivity", 
+            "text": "", 
+            "title": "Productivity"
+        }, 
+        {
+            "location": "/home/features/#full-development-story", 
+            "text": "", 
+            "title": "Full Development Story"
+        }, 
+        {
+            "location": "/team/core-team/", 
+            "text": "", 
+            "title": "Core"
+        }, 
+        {
+            "location": "/team/contributors/", 
+            "text": "", 
+            "title": "Contributors"
+        }, 
+        {
+            "location": "/home/release-notes/", 
+            "text": "", 
+            "title": "Release notes"
+        }, 
+        {
+            "location": "/home/license/", 
+            "text": "", 
+            "title": "License"
+        }
+    ]
+}
