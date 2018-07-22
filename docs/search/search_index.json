@@ -17,12 +17,27 @@
         }, 
         {
             "location": "/home/get-started/", 
-            "text": "", 
+            "text": "Get Started\n\n\nPrerequisite\n\n\nInstall the \nNodejs\n\n\nInstall the following modules\n\n\nnpm install typescript tslint rimraf mission.cli -g;\n\n\n\n\n\nInstall the \ngit\n.\n\n\ninstall the \nVSCode\n\n\nVerify the installation\n\n\nmio version\n\n\n\n\n\n`` \n              _               _                       _\n  _ __ ___   (_)  ___   ___  (_)   ___    _ __       (_)   ___\n | '_\n _   | | / __| / __| | |  / _   | '_       | |  / _ \\\n | | | | | | | | __  __  | | | (\n) | | | | |  _  | | | (\n) |\n |\n| |\n| |\n| |\n| |\n/ |\n/ |\n|  __\n/  |\n| |\n| (\n) |\n|  ___/\n\n\n___         ___        _                   _           _                   _   _____\n  / _        / _       / |           \n _  | |  _ \n   | |__     \n _      / | |_\n  |\n | | | |     | | | |     | |  _____   / \n| | | | '_ \\  | '_ \\   / _\n |     | |    / /\n | |\n| |  _  | |\n| |  _  | | |____\n| | (\n| | | | | |\n) | | | | | | (\n| |  _  | |   / /\n  __\n/  (\n)  __\n/  (\n) |\n|          _\n,\n| |\n| | ._\n/  |\n| |\n|  _\n,\n| (\n) |\n|  /\n/\n                                                 |\n|\n\n\n```", 
             "title": "Get started"
         }, 
         {
+            "location": "/home/get-started/#get-started", 
+            "text": "", 
+            "title": "Get Started"
+        }, 
+        {
+            "location": "/home/get-started/#prerequisite", 
+            "text": "Install the  Nodejs  Install the following modules  npm install typescript tslint rimraf mission.cli -g;  Install the  git .  install the  VSCode", 
+            "title": "Prerequisite"
+        }, 
+        {
+            "location": "/home/get-started/#verify-the-installation", 
+            "text": "mio version  `` \n              _               _                       _\n  _ __ ___   (_)  ___   ___  (_)   ___    _ __       (_)   ___\n | '_  _   | | / __| / __| | |  / _   | '_       | |  / _ \\\n | | | | | | | | __  __  | | | ( ) | | | | |  _  | | | ( ) |\n | | | | | | | | | / | / | |  __ /  | | | | ( ) | |  ___/  ___         ___        _                   _           _                   _   _____\n  / _        / _       / |             _  | |  _     | |__       _      / | |_   |\n | | | |     | | | |     | |  _____   /  | | | | '_ \\  | '_ \\   / _  |     | |    / /\n | | | |  _  | | | |  _  | | |____ | | ( | | | | | | ) | | | | | | ( | |  _  | |   / /\n  __ /  ( )  __ /  ( ) | |          _ , | | | | ._ /  | | | |  _ , | ( ) | |  / /\n                                                 | |  ```", 
+            "title": "Verify the installation"
+        }, 
+        {
             "location": "/cli/overview/", 
-            "text": "Mission.cli\n\n\nOverview\n\n\nHow to install\n\n\nLocal installation\n\n\nnpm i mission.cli -g\n\n\n\n\nGlobal installation\n\n\nnpm i mission.cli -g\n\n\n\n\nCommands\n\n\nnew Command\n\n\nmio new \nservice-name\n\n\n\n\n\n\nExample\n\n\nmio new OrderApi\n\n\n\n\n\ninit Command\n\n\nmio init", 
+            "text": "Mission.cli\n\n\nOverview\n\n\nHow to install\n\n\nLocal installation\n\n\nnpm i mission.cli\n\n\n\n\nGlobal installation\n\n\nnpm i mission.cli -g\n\n\n\n\nCommands\n\n\nnew Command\n\n\nmio new \nservice-name\n\n\n\n\n\n\nExample\n\n\nmio new OrderApi\n\n\n\n\n\ninit Command\n\n\nmio init", 
             "title": "Overview"
         }, 
         {
@@ -42,7 +57,7 @@
         }, 
         {
             "location": "/cli/overview/#local-installation", 
-            "text": "npm i mission.cli -g", 
+            "text": "npm i mission.cli", 
             "title": "Local installation"
         }, 
         {
@@ -76,14 +91,64 @@
             "title": "docker"
         }, 
         {
+            "location": "/cli/credits/", 
+            "text": "Credits\n\n\n\n\ncommand-line-args\n\n\ncommand-line-usage\n\n\nexpress\n\n\nexpress-session\n\n\nbody-parser\n\n\nchalk\n\n\nclear\n\n\nclui\n\n\narchiver\n\n\nfiglet\n\n\nfs\n\n\ninquirer\n\n\nlodash\n\n\nmysql2\n\n\nopenurl\n\n\npath\n\n\nprompt\n\n\nreplace-in-file\n\n\nshelljs\n\n\ntable\n\n\ntouch\n\n\nuglify-es", 
+            "title": "Credits"
+        }, 
+        {
+            "location": "/cli/credits/#credits", 
+            "text": "command-line-args  command-line-usage  express  express-session  body-parser  chalk  clear  clui  archiver  figlet  fs  inquirer  lodash  mysql2  openurl  path  prompt  replace-in-file  shelljs  table  touch  uglify-es", 
+            "title": "Credits"
+        }, 
+        {
+            "location": "/api/overview/", 
+            "text": "Mission.api\n\n\nOverview\n\n\nCreate new API Project\n\n\nmio new api \napi-name\n\n\n\n\n\n\nExample\n\n\nmio new api OrderApi", 
+            "title": "Overview"
+        }, 
+        {
+            "location": "/api/overview/#missionapi", 
+            "text": "", 
+            "title": "Mission.api"
+        }, 
+        {
+            "location": "/api/overview/#overview", 
+            "text": "", 
+            "title": "Overview"
+        }, 
+        {
+            "location": "/api/overview/#create-new-api-project", 
+            "text": "mio new api  api-name   Example  mio new api OrderApi", 
+            "title": "Create new API Project"
+        }, 
+        {
+            "location": "/api/credits/", 
+            "text": "Credits\n\n\n\n\nexpress\n\n\nreflect-metadata\n\n\ncors\n\n\nhelmet\n\n\njsonpath\n\n\nlodash\n\n\nmorgan\n\n\nbody-parser\n\n\ncookie-parser\n\n\ncors\n\n\nfs\n\n\n@types", 
+            "title": "Credits"
+        }, 
+        {
+            "location": "/api/credits/#credits", 
+            "text": "express  reflect-metadata  cors  helmet  jsonpath  lodash  morgan  body-parser  cookie-parser  cors  fs  @types", 
+            "title": "Credits"
+        }, 
+        {
             "location": "/core/overview/", 
             "text": "", 
             "title": "Overview"
         }, 
         {
+            "location": "/core/credits/", 
+            "text": "Credits\n\n\n\n\nsequelize\n\n\nmulter\n\n\nglob", 
+            "title": "Credits"
+        }, 
+        {
+            "location": "/core/credits/#credits", 
+            "text": "sequelize  multer  glob", 
+            "title": "Credits"
+        }, 
+        {
             "location": "/common/overview/", 
             "text": "", 
-            "title": "Overviewd"
+            "title": "Overview"
         }, 
         {
             "location": "/template/overview/", 
@@ -91,9 +156,14 @@
             "title": "Overview"
         }, 
         {
-            "location": "/seed/overview/", 
-            "text": "", 
-            "title": "Overview"
+            "location": "/template/credits/", 
+            "text": "Credits\n\n\n\n\nbwip-js\n\n\ndeasync\n\n\nhandlebars\n\n\nhtml-pdf\n\n\nlodash", 
+            "title": "Credits"
+        }, 
+        {
+            "location": "/template/credits/#credits", 
+            "text": "bwip-js  deasync  handlebars  html-pdf  lodash", 
+            "title": "Credits"
         }, 
         {
             "location": "/home/features/", 
@@ -144,6 +214,26 @@
             "location": "/team/contributors/#contributors", 
             "text": "", 
             "title": "Contributors"
+        }, 
+        {
+            "location": "/home/partners/", 
+            "text": "Partners\n\n\n\n\nZerofence", 
+            "title": "Partners"
+        }, 
+        {
+            "location": "/home/partners/#partners", 
+            "text": "Zerofence", 
+            "title": "Partners"
+        }, 
+        {
+            "location": "/home/customers/", 
+            "text": "Customers\n\n\n\n\nHealthmed Technologies", 
+            "title": "Customers"
+        }, 
+        {
+            "location": "/home/customers/#customers", 
+            "text": "Healthmed Technologies", 
+            "title": "Customers"
         }, 
         {
             "location": "/home/release-notes/", 
