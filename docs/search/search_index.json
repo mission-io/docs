@@ -81,23 +81,93 @@
             "title": "init Command"
         }, 
         {
-            "location": "/cli/command/new/", 
-            "text": "", 
-            "title": "new"
+            "location": "/cli/commands/", 
+            "text": "Commands\n\n\n\n\nmio new\n\n\n\n\n\n\n\n\nS.No\n\n\nTemplate Name\n\n\nCommand\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\n1\n\n\napi\n\n\nmio new api [app-name]\n\n\nCreate mission.api\n\n\n\n\n\n\n2\n\n\ncore\n\n\nmio new core [app-name]\n\n\nCreate mission.core\n\n\n\n\n\n\n3\n\n\nscheduler\n\n\nmio new scheduler [app-name]\n\n\nCreate mission.scheduler\n\n\n\n\n\n\n4\n\n\nmongodb\n\n\nmio new mongodb [app-name]\n\n\nCreate mission.mongodb\n\n\n\n\n\n\n5\n\n\ntsc\n\n\nmio new tsc [app-name]\n\n\nCreate typescript quick start project\n\n\n\n\n\n\n6\n\n\nclient\n\n\nmio new client [app-name]\n\n\nCreate Angular seed project \n(inprogress)\n\n\n\n\n\n\n\n\nmio init\n\n\nInitialize the mission project. It will generate \nmission.json\n file.\n\n\nmio add\n\n\nmio list\n\n\nmio generage\n\n\nmio link\n\n\nmio lint\n\n\nmio build\n\n\nmio serve\n\n\nmio docker\n\n\nmio version\n\n\nmio help", 
+            "title": "Commands"
         }, 
         {
-            "location": "/cli/command/docker/", 
+            "location": "/cli/commands/#commands", 
             "text": "", 
-            "title": "docker"
+            "title": "Commands"
+        }, 
+        {
+            "location": "/cli/commands/#mio-new", 
+            "text": "S.No  Template Name  Command  Description      1  api  mio new api [app-name]  Create mission.api    2  core  mio new core [app-name]  Create mission.core    3  scheduler  mio new scheduler [app-name]  Create mission.scheduler    4  mongodb  mio new mongodb [app-name]  Create mission.mongodb    5  tsc  mio new tsc [app-name]  Create typescript quick start project    6  client  mio new client [app-name]  Create Angular seed project  (inprogress)", 
+            "title": "mio new"
+        }, 
+        {
+            "location": "/cli/commands/#mio-init", 
+            "text": "Initialize the mission project. It will generate  mission.json  file.", 
+            "title": "mio init"
+        }, 
+        {
+            "location": "/cli/commands/#mio-add", 
+            "text": "", 
+            "title": "mio add"
+        }, 
+        {
+            "location": "/cli/commands/#mio-list", 
+            "text": "", 
+            "title": "mio list"
+        }, 
+        {
+            "location": "/cli/commands/#mio-generage", 
+            "text": "", 
+            "title": "mio generage"
+        }, 
+        {
+            "location": "/cli/commands/#mio-link", 
+            "text": "", 
+            "title": "mio link"
+        }, 
+        {
+            "location": "/cli/commands/#mio-lint", 
+            "text": "", 
+            "title": "mio lint"
+        }, 
+        {
+            "location": "/cli/commands/#mio-build", 
+            "text": "", 
+            "title": "mio build"
+        }, 
+        {
+            "location": "/cli/commands/#mio-serve", 
+            "text": "", 
+            "title": "mio serve"
+        }, 
+        {
+            "location": "/cli/commands/#mio-docker", 
+            "text": "", 
+            "title": "mio docker"
+        }, 
+        {
+            "location": "/cli/commands/#mio-version", 
+            "text": "", 
+            "title": "mio version"
+        }, 
+        {
+            "location": "/cli/commands/#mio-help", 
+            "text": "", 
+            "title": "mio help"
+        }, 
+        {
+            "location": "/cli/cheat-sheet/", 
+            "text": "Cheat Sheet\n\n\n\n\nmio new\n\n\n\n\n\n\n\n\n\n\nS.No\n\n\nTemplate Name\n\n\nCommand\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\n1\n\n\napi\n\n\nmio new api [app-name]\n\n\nCreate mission.api\n\n\n\n\n\n\n2\n\n\ncore\n\n\nmio new core [app-name]\n\n\nCreate mission.core\n\n\n\n\n\n\n3\n\n\nscheduler\n\n\nmio new scheduler [app-name]\n\n\nCreate mission.scheduler\n\n\n\n\n\n\n4\n\n\nmongodb\n\n\nmio new mongodb [app-name]\n\n\nCreate mission.mongodb\n\n\n\n\n\n\n5\n\n\ntsc\n\n\nmio new tsc [app-name]\n\n\nCreate typescript quick start project\n\n\n\n\n\n\n6\n\n\nclient\n\n\nmio new client [app-name]\n\n\nCreate Angular seed project \n(inprogress)\n\n\n\n\n\n\n\n\n\n\nmio init\n\n\nInitialize the mission project. It will generate \nmission.json\n file.\n\n\n\n\n\n\nmio add\n\n\n\n\n\n\nmio list\n\n\n\n\n\n\nmio generage\n\n\n\n\n\n\nmio link\n\n\n\n\n\n\nmio lint\n\n\n\n\n\n\nmio build\n\n\n\n\n\n\nmio serve\n\n\n\n\n\n\nmio docker\n\n\n\n\n\n\nmio version\n\n\n\n\n\n\nmio help", 
+            "title": "Cheat Sheet"
+        }, 
+        {
+            "location": "/cli/cheat-sheet/#cheat-sheet", 
+            "text": "mio new      S.No  Template Name  Command  Description      1  api  mio new api [app-name]  Create mission.api    2  core  mio new core [app-name]  Create mission.core    3  scheduler  mio new scheduler [app-name]  Create mission.scheduler    4  mongodb  mio new mongodb [app-name]  Create mission.mongodb    5  tsc  mio new tsc [app-name]  Create typescript quick start project    6  client  mio new client [app-name]  Create Angular seed project  (inprogress)      mio init  Initialize the mission project. It will generate  mission.json  file.    mio add    mio list    mio generage    mio link    mio lint    mio build    mio serve    mio docker    mio version    mio help", 
+            "title": "Cheat Sheet"
         }, 
         {
             "location": "/cli/credits/", 
-            "text": "Credits\n\n\n\n\ncommand-line-args\n\n\ncommand-line-usage\n\n\nexpress\n\n\nexpress-session\n\n\nbody-parser\n\n\nchalk\n\n\nclear\n\n\nclui\n\n\narchiver\n\n\nfiglet\n\n\nfs\n\n\ninquirer\n\n\nlodash\n\n\nmysql2\n\n\nopenurl\n\n\npath\n\n\nprompt\n\n\nreplace-in-file\n\n\nshelljs\n\n\ntable\n\n\ntouch\n\n\nuglify-es", 
+            "text": "Credits\n\n\n\n\ncommand-line-args\n\n\n\n\n\n\ncommand-line-usage\n\n\n\n\n\n\nexpress\n\n\n\n\n\n\nexpress-session\n\n\n\n\n\n\nbody-parser\n\n\n\n\n\n\nchalk\n\n\n\n\n\n\nclear\n\n\n\n\n\n\nclui\n\n\n\n\n\n\narchiver\n\n\n\n\n\n\nfiglet\n\n\n\n\n\n\nfs\n\n\n\n\n\n\ninquirer\n\n\n\n\n\n\nlodash\n\n\n\n\n\n\nmysql2\n\n\n\n\n\n\nopenurl\n\n\n\n\n\n\npath\n\n\n\n\n\n\nprompt\n\n\n\n\n\n\nreplace-in-file\n\n\n\n\n\n\nshelljs\n\n\n\n\n\n\ntable\n\n\n\n\n\n\ntouch\n\n\n\n\n\n\nuglify-es", 
             "title": "Credits"
         }, 
         {
             "location": "/cli/credits/#credits", 
-            "text": "command-line-args  command-line-usage  express  express-session  body-parser  chalk  clear  clui  archiver  figlet  fs  inquirer  lodash  mysql2  openurl  path  prompt  replace-in-file  shelljs  table  touch  uglify-es", 
+            "text": "command-line-args    command-line-usage    express    express-session    body-parser    chalk    clear    clui    archiver    figlet    fs    inquirer    lodash    mysql2    openurl    path    prompt    replace-in-file    shelljs    table    touch    uglify-es", 
             "title": "Credits"
         }, 
         {
