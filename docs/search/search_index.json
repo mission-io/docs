@@ -172,7 +172,7 @@
         }, 
         {
             "location": "/api/overview/", 
-            "text": "Mission.api\n\n\nOverview\n\n\nCreate new API Project\n\n\nmio new api \napi-name\n\n\n\n\n\n\nExample\n\n\nmio new api OrderApi", 
+            "text": "Mission.api\n\n\nOverview\n\n\nCreate new API Project\n\n\nmio new api \napi-name\n\n\n\n\n\n\nExample\n\n\nmio new api DemoApi\n\n\n\n\n\nDecorators\n\n\nRoutable\n\n\n@Routable(\nroute-path\n, \nverbe\n)\n\n\n\n\n\nexample\n\n\n@Routable\n(\n/health\n,\n \nGET\n)\n\n\nexport\n \nclass\n \nUserController\n \n{\n\n    \npublic\n \nstatic\n \nasync\n \ngetUsers\n(\nreq\n: \nRequest\n,\n \nres\n: \nResponse\n,\n \nnext\n: \nNextFunction\n)\n:\n \nPromise\nboolean\n \n{\n\n        \nreturn\n \n{\n \n...\n \n};\n\n    \n}\n\n\n}\n\n\n\n\n\nController\n\n\n\n\nWarning\n\n\nAll methods should be \nstatic async\n.\n\n\nBoth access specifiers (\npublic\n/\nprivate\n) would be exposed as service.\n\n\n\n\nExample:\n\n\n    \n@Routable\n(\n/user\n)\n\n    \nexport\n \nclass\n \nUserRegistrationController\n \n{\n\n        \npublic\n \nstatic\n \nasync\n \ngetUsers\n(\nreq\n: \nRequest\n,\n \nres\n: \nResponse\n,\n \nnext\n: \nNextFunction\n)\n:\n \nPromise\nany\n \n{\n\n            \n...\n\n        \n}\n\n    \n}\n\n\n\n\n\nBuilt-in Controllers\n\n\nHealth Check Controller\n\n\n@Routable\n(\n/health\n,\n \nGET\n)\n\n\nexport\n \nclass\n \nHealthService\n \n{\n\n    \npublic\n \nstatic\n \nasync\n \nliveness\n(\nreq\n: \nRequest\n,\n \nres\n: \nResponse\n,\n \nnext\n: \nNextFunction\n)\n:\n \nPromise\nboolean\n \n{\n\n        \nreturn\n \ntrue\n;\n\n    \n}\n\n    \npublic\n \nstatic\n \nasync\n \nreadyness\n(\nreq\n: \nRequest\n,\n \nres\n: \nResponse\n,\n \nnext\n: \nNextFunction\n)\n:\n \nPromise\nboolean\n \n{\n\n        \nreturn\n \ntrue\n;\n\n    \n}\n\n\n}\n\n\n\nTo Check the liveness of the appliation\n\n\nhttp://localhost:3000/health/liveness\n\n\n\n\n\nTo Check the readyness of the application\n\n\nhttp://localhost:3000/health/readyness\n\n\n\n\n\n\n\nNote\n\n\nReadyness api need to be override to check the readyness of the other resources like Sql / NoSql database, redis cache, etc.\n\n\n\n\nFacade Controller\n\n\nConfiguration\n\n\nWeb Server Configuration\n\n\ninterface\n \nWebServerConfig\n \n{\n\n    \napiPort\n: \nnumber\n;\n\n    \nisHttpsEnabled\n: \nboolean\n;\n\n    \nhttpsCertificatepath\n: \nstring\n;\n\n    \nhttpsKeypath\n: \nstring\n;\n\n    \ncorsOptions\n: \nCorsOptions\n;\n\n\n}\n\n\n\ninterface\n \nCorsOptions\n \n{\n\n    \norigin?\n: \nboolean\n \n|\n \nstring\n \n|\n \nRegExp\n \n|\n \n(\nstring\n \n|\n \nRegExp\n)[]\n \n|\n \nCustomOrigin\n;\n\n    \nmethods?\n: \nstring\n \n|\n \nstring\n[];\n\n    \nallowedHeaders?\n: \nstring\n \n|\n \nstring\n[];\n\n    \nexposedHeaders?\n: \nstring\n \n|\n \nstring\n[];\n\n    \ncredentials?\n: \nboolean\n;\n\n    \nmaxAge?\n: \nnumber\n;\n\n    \npreflightContinue?\n: \nboolean\n;\n\n    \noptionsSuccessStatus?\n: \nnumber\n;\n\n\n}\n\n\n\n\n\nLogger Configuration Interface\n\n\ninterface\n \nLoggerInstance\n \n{\n\n    \nlog\n: \nFunction\n;\n\n    \ninfo\n: \nFunction\n;\n\n    \nwarn\n: \nFunction\n;\n\n    \nerror\n: \nFunction\n;\n\n\n}\n\n\n\nMorgan Logger configuration: \n\n\nSet the following evironment variable. \n\n\nprocess.env.MORGAN = \ndev\n\n\n\n\n\n\nAccepted Values are: \n1. combined\n2. common\n3. dev (default)\n4. short\n5. tiny\n\n\nMore Reference\n\n\nUtil\n\n\nWrap\n\n\nWrap\n((\nreq\n:\nRequest\n,\n \nres\n:\nResponse\n,\n \nnext\n:\nNextFunction\n)\n=\n{});\n\n\n\n\n\nErrorWrap", 
             "title": "Overview"
         }, 
         {
@@ -187,8 +187,68 @@
         }, 
         {
             "location": "/api/overview/#create-new-api-project", 
-            "text": "mio new api  api-name   Example  mio new api OrderApi", 
+            "text": "mio new api  api-name   Example  mio new api DemoApi", 
             "title": "Create new API Project"
+        }, 
+        {
+            "location": "/api/overview/#decorators", 
+            "text": "", 
+            "title": "Decorators"
+        }, 
+        {
+            "location": "/api/overview/#routable", 
+            "text": "@Routable( route-path ,  verbe )  example  @Routable ( /health ,   GET )  export   class   UserController   { \n     public   static   async   getUsers ( req :  Request ,   res :  Response ,   next :  NextFunction ) :   Promise boolean   { \n         return   {   ...   }; \n     }  }", 
+            "title": "Routable"
+        }, 
+        {
+            "location": "/api/overview/#controller", 
+            "text": "Warning  All methods should be  static async .  Both access specifiers ( public / private ) would be exposed as service.   Example:       @Routable ( /user ) \n     export   class   UserRegistrationController   { \n         public   static   async   getUsers ( req :  Request ,   res :  Response ,   next :  NextFunction ) :   Promise any   { \n             ... \n         } \n     }", 
+            "title": "Controller"
+        }, 
+        {
+            "location": "/api/overview/#built-in-controllers", 
+            "text": "", 
+            "title": "Built-in Controllers"
+        }, 
+        {
+            "location": "/api/overview/#health-check-controller", 
+            "text": "@Routable ( /health ,   GET )  export   class   HealthService   { \n     public   static   async   liveness ( req :  Request ,   res :  Response ,   next :  NextFunction ) :   Promise boolean   { \n         return   true ; \n     } \n     public   static   async   readyness ( req :  Request ,   res :  Response ,   next :  NextFunction ) :   Promise boolean   { \n         return   true ; \n     }  }  \nTo Check the liveness of the appliation  http://localhost:3000/health/liveness  To Check the readyness of the application  http://localhost:3000/health/readyness   Note  Readyness api need to be override to check the readyness of the other resources like Sql / NoSql database, redis cache, etc.", 
+            "title": "Health Check Controller"
+        }, 
+        {
+            "location": "/api/overview/#facade-controller", 
+            "text": "", 
+            "title": "Facade Controller"
+        }, 
+        {
+            "location": "/api/overview/#configuration", 
+            "text": "", 
+            "title": "Configuration"
+        }, 
+        {
+            "location": "/api/overview/#web-server-configuration", 
+            "text": "interface   WebServerConfig   { \n     apiPort :  number ; \n     isHttpsEnabled :  boolean ; \n     httpsCertificatepath :  string ; \n     httpsKeypath :  string ; \n     corsOptions :  CorsOptions ;  }  interface   CorsOptions   { \n     origin? :  boolean   |   string   |   RegExp   |   ( string   |   RegExp )[]   |   CustomOrigin ; \n     methods? :  string   |   string []; \n     allowedHeaders? :  string   |   string []; \n     exposedHeaders? :  string   |   string []; \n     credentials? :  boolean ; \n     maxAge? :  number ; \n     preflightContinue? :  boolean ; \n     optionsSuccessStatus? :  number ;  }", 
+            "title": "Web Server Configuration"
+        }, 
+        {
+            "location": "/api/overview/#logger-configuration-interface", 
+            "text": "interface   LoggerInstance   { \n     log :  Function ; \n     info :  Function ; \n     warn :  Function ; \n     error :  Function ;  }  \nMorgan Logger configuration:   Set the following evironment variable.   process.env.MORGAN =  dev   Accepted Values are: \n1. combined\n2. common\n3. dev (default)\n4. short\n5. tiny  More Reference", 
+            "title": "Logger Configuration Interface"
+        }, 
+        {
+            "location": "/api/overview/#util", 
+            "text": "", 
+            "title": "Util"
+        }, 
+        {
+            "location": "/api/overview/#wrap", 
+            "text": "Wrap (( req : Request ,   res : Response ,   next : NextFunction ) = {});", 
+            "title": "Wrap"
+        }, 
+        {
+            "location": "/api/overview/#errorwrap", 
+            "text": "", 
+            "title": "ErrorWrap"
         }, 
         {
             "location": "/api/credits/", 
