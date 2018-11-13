@@ -37,7 +37,7 @@
       
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
-      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <link rel="shortcut icon" href="../../img/favicon.png">
       <meta name="generator" content="mkdocs-0.17.4, mkdocs-material-2.9.2">
     
     
@@ -115,7 +115,7 @@
       <div class="md-flex__cell md-flex__cell--shrink">
         <a href="https://github.com/mission-io/mission.docs" title="MISSION I/O" class="md-header-nav__button md-logo">
           
-            <i class="md-icon"></i>
+            <i class="md-icon">cloud</i>
           
         </a>
       </div>
@@ -279,7 +279,7 @@
   <label class="md-nav__title md-nav__title--site" for="__drawer">
     <span class="md-nav__button md-logo">
       
-        <i class="md-icon"></i>
+        <i class="md-icon">cloud</i>
       
     </span>
     MISSION I/O
@@ -375,15 +375,36 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#prerequisite" title="Prerequisite" class="md-nav__link">
-    Prerequisite
+  <a href="#1-prerequisite" title="1. Prerequisite" class="md-nav__link">
+    1. Prerequisite
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#verify-the-installation" title="Verify the installation" class="md-nav__link">
-    Verify the installation
+  <a href="#2-install-mission-command-line-interface-cli" title="2. Install Mission Command Line Interface (CLI)" class="md-nav__link">
+    2. Install Mission Command Line Interface (CLI)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-verify-the-cli-installation" title="3. Verify the CLI installation" class="md-nav__link">
+    3. Verify the CLI installation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-create-new-project" title="4. Create new project" class="md-nav__link">
+    4. Create new project
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-initialize-the-project" title="5. Initialize the project" class="md-nav__link">
+    5. Initialize the project
   </a>
   
 </li>
@@ -833,15 +854,36 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#prerequisite" title="Prerequisite" class="md-nav__link">
-    Prerequisite
+  <a href="#1-prerequisite" title="1. Prerequisite" class="md-nav__link">
+    1. Prerequisite
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#verify-the-installation" title="Verify the installation" class="md-nav__link">
-    Verify the installation
+  <a href="#2-install-mission-command-line-interface-cli" title="2. Install Mission Command Line Interface (CLI)" class="md-nav__link">
+    2. Install Mission Command Line Interface (CLI)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-verify-the-cli-installation" title="3. Verify the CLI installation" class="md-nav__link">
+    3. Verify the CLI installation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-create-new-project" title="4. Create new project" class="md-nav__link">
+    4. Create new project
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-initialize-the-project" title="5. Initialize the project" class="md-nav__link">
+    5. Initialize the project
   </a>
   
 </li>
@@ -864,33 +906,49 @@
                 
                 
                 <h1 id="get-started">Get Started<a class="headerlink" href="#get-started" title="Permanent link">&para;</a></h1>
-<h2 id="prerequisite">Prerequisite<a class="headerlink" href="#prerequisite" title="Permanent link">&para;</a></h2>
+<h2 id="1-prerequisite">1. Prerequisite<a class="headerlink" href="#1-prerequisite" title="Permanent link">&para;</a></h2>
+<ol>
+<li>
 <p>Install the <a href="http://nodejs download url">Nodejs</a></p>
-<p>Install the following modules</p>
-<div class="codehilite"><pre><span></span>npm install typescript tslint rimraf mission.cli -g;
-</pre></div>
-
-
+</li>
+<li>
 <p>Install the <a href="http://git download url">git</a>.</p>
+</li>
+<li>
 <p>install the <a href="http://vscode download url">VSCode</a></p>
-<h2 id="verify-the-installation">Verify the installation<a class="headerlink" href="#verify-the-installation" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>mio version
+</li>
+<li>
+<p>Install the following modules globally</p>
+<ol>
+<li>typescript</li>
+<li>tslint</li>
+<li>rimraf </li>
+</ol>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>npm i typescript tslint rimraf -g
 </pre></div>
+</td></tr></table>
 
+</li>
+</ol>
+<h2 id="2-install-mission-command-line-interface-cli">2. Install Mission Command Line Interface (CLI)<a class="headerlink" href="#2-install-mission-command-line-interface-cli" title="Permanent link">&para;</a></h2>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>npm i mission.cli -g
+</pre></div>
+</td></tr></table>
 
-<p><code>`` 
-              _               _                       _
-  _ __ ___   (_)  ___   ___  (_)   ___    _ __       (_)   ___
- | '_</code> _   | | / __| / __| | |  / _   | '_       | |  / _ \
- | | | | | | | | __  __  | | | (<em>) | | | | |  _  | | | (</em>) |
- |<em>| |</em>| |<em>| |</em>| |<strong><em>/ |</em></strong>/ |<em>|  __</em>/  |<em>| |</em>| (<em>) |</em>|  ___/</p>
-<p>___         ___        _                   _           _                   _   _____
-  / _        / _       / |           <strong> _  | |  _ </strong>   | |__     <strong> _      / | |_</strong>  |
- | | | |     | | | |     | |  _____   / <em><code>| | | | '_ \  | '_ \   / _</code> |     | |    / /
- | |</em>| |  _  | |<em>| |  _  | | |____</em>| | (<em>| | | | | |</em>) | | | | | | (<em>| |  _  | |   / /
-  __</em>/  (<em>)  __</em>/  (<em>) |</em>|          _<em>,</em>| |<em>| | ._</em>/  |<em>| |</em>|  _<em>,</em>| (<em>) |</em>|  /<em>/
-                                                 |</em>|</p>
-<p>```</p>
+<p><img alt="npm Install" src="../../img/gif/npm-install.gif" /></p>
+<h2 id="3-verify-the-cli-installation">3. Verify the CLI installation<a class="headerlink" href="#3-verify-the-cli-installation" title="Permanent link">&para;</a></h2>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>mio version
+</pre></div>
+</td></tr></table>
+
+<p><img alt="mio version" src="../../img/gif/mio-version.gif" /></p>
+<h2 id="4-create-new-project">4. Create new project<a class="headerlink" href="#4-create-new-project" title="Permanent link">&para;</a></h2>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>mio new core demo
+</pre></div>
+</td></tr></table>
+
+<p><img alt="mio new core" src="../../img/gif/mio-new-core.gif" /></p>
+<h2 id="5-initialize-the-project">5. Initialize the project<a class="headerlink" href="#5-initialize-the-project" title="Permanent link">&para;</a></h2>
                 
                   
                 

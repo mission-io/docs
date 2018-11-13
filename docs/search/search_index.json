@@ -17,7 +17,7 @@
         }, 
         {
             "location": "/home/get-started/", 
-            "text": "Get Started\n\n\nPrerequisite\n\n\nInstall the \nNodejs\n\n\nInstall the following modules\n\n\nnpm install typescript tslint rimraf mission.cli -g;\n\n\n\n\n\nInstall the \ngit\n.\n\n\ninstall the \nVSCode\n\n\nVerify the installation\n\n\nmio version\n\n\n\n\n\n`` \n              _               _                       _\n  _ __ ___   (_)  ___   ___  (_)   ___    _ __       (_)   ___\n | '_\n _   | | / __| / __| | |  / _   | '_       | |  / _ \\\n | | | | | | | | __  __  | | | (\n) | | | | |  _  | | | (\n) |\n |\n| |\n| |\n| |\n| |\n/ |\n/ |\n|  __\n/  |\n| |\n| (\n) |\n|  ___/\n\n\n___         ___        _                   _           _                   _   _____\n  / _        / _       / |           \n _  | |  _ \n   | |__     \n _      / | |_\n  |\n | | | |     | | | |     | |  _____   / \n| | | | '_ \\  | '_ \\   / _\n |     | |    / /\n | |\n| |  _  | |\n| |  _  | | |____\n| | (\n| | | | | |\n) | | | | | | (\n| |  _  | |   / /\n  __\n/  (\n)  __\n/  (\n) |\n|          _\n,\n| |\n| | ._\n/  |\n| |\n|  _\n,\n| (\n) |\n|  /\n/\n                                                 |\n|\n\n\n```", 
+            "text": "Get Started\n\n\n1. Prerequisite\n\n\n\n\n\n\nInstall the \nNodejs\n\n\n\n\n\n\nInstall the \ngit\n.\n\n\n\n\n\n\ninstall the \nVSCode\n\n\n\n\n\n\nInstall the following modules globally\n\n\n\n\ntypescript\n\n\ntslint\n\n\nrimraf \n\n\n\n\n1\nnpm i typescript tslint rimraf -g\n\n\n\n\n\n\n\n\n\n\n2. Install Mission Command Line Interface (CLI)\n\n\n1\nnpm i mission.cli -g\n\n\n\n\n\n\n\n\n3. Verify the CLI installation\n\n\n1\nmio version\n\n\n\n\n\n\n\n\n4. Create new project\n\n\n1\nmio new core demo\n\n\n\n\n\n\n\n\n5. Initialize the project", 
             "title": "Get started"
         }, 
         {
@@ -26,18 +26,33 @@
             "title": "Get Started"
         }, 
         {
-            "location": "/home/get-started/#prerequisite", 
-            "text": "Install the  Nodejs  Install the following modules  npm install typescript tslint rimraf mission.cli -g;  Install the  git .  install the  VSCode", 
-            "title": "Prerequisite"
+            "location": "/home/get-started/#1-prerequisite", 
+            "text": "Install the  Nodejs    Install the  git .    install the  VSCode    Install the following modules globally   typescript  tslint  rimraf    1 npm i typescript tslint rimraf -g", 
+            "title": "1. Prerequisite"
         }, 
         {
-            "location": "/home/get-started/#verify-the-installation", 
-            "text": "mio version  `` \n              _               _                       _\n  _ __ ___   (_)  ___   ___  (_)   ___    _ __       (_)   ___\n | '_  _   | | / __| / __| | |  / _   | '_       | |  / _ \\\n | | | | | | | | __  __  | | | ( ) | | | | |  _  | | | ( ) |\n | | | | | | | | | / | / | |  __ /  | | | | ( ) | |  ___/  ___         ___        _                   _           _                   _   _____\n  / _        / _       / |             _  | |  _     | |__       _      / | |_   |\n | | | |     | | | |     | |  _____   /  | | | | '_ \\  | '_ \\   / _  |     | |    / /\n | | | |  _  | | | |  _  | | |____ | | ( | | | | | | ) | | | | | | ( | |  _  | |   / /\n  __ /  ( )  __ /  ( ) | |          _ , | | | | ._ /  | | | |  _ , | ( ) | |  / /\n                                                 | |  ```", 
-            "title": "Verify the installation"
+            "location": "/home/get-started/#2-install-mission-command-line-interface-cli", 
+            "text": "1 npm i mission.cli -g", 
+            "title": "2. Install Mission Command Line Interface (CLI)"
+        }, 
+        {
+            "location": "/home/get-started/#3-verify-the-cli-installation", 
+            "text": "1 mio version", 
+            "title": "3. Verify the CLI installation"
+        }, 
+        {
+            "location": "/home/get-started/#4-create-new-project", 
+            "text": "1 mio new core demo", 
+            "title": "4. Create new project"
+        }, 
+        {
+            "location": "/home/get-started/#5-initialize-the-project", 
+            "text": "", 
+            "title": "5. Initialize the project"
         }, 
         {
             "location": "/cli/overview/", 
-            "text": "Mission.cli\n\n\nOverview\n\n\nHow to install\n\n\nLocal installation\n\n\nnpm i mission.cli\n\n\n\n\nGlobal installation\n\n\nnpm i mission.cli -g\n\n\n\n\nCommands\n\n\nnew Command\n\n\nmio new \nservice-name\n\n\n\n\n\n\nExample\n\n\nmio new OrderApi\n\n\n\n\n\ninit Command\n\n\nmio init", 
+            "text": "Mission.cli\n\n\nOverview\n\n\nHow to install\n\n\nLocal installation\n\n\n1\nnpm i mission.cli\n\n\n\n\n\n\nGlobal installation\n\n\n1\nnpm i mission.cli -g\n\n\n\n\n\n\nCommands\n\n\nnew Command\n\n\n1\nmio new \nservice-name\n\n\n\n\n\n\n\nExample\n\n\n1\nmio new OrderApi\n\n\n\n\n\n\ninit Command\n\n\n1\nmio init", 
             "title": "Overview"
         }, 
         {
@@ -57,12 +72,12 @@
         }, 
         {
             "location": "/cli/overview/#local-installation", 
-            "text": "npm i mission.cli", 
+            "text": "1 npm i mission.cli", 
             "title": "Local installation"
         }, 
         {
             "location": "/cli/overview/#global-installation", 
-            "text": "npm i mission.cli -g", 
+            "text": "1 npm i mission.cli -g", 
             "title": "Global installation"
         }, 
         {
@@ -72,12 +87,12 @@
         }, 
         {
             "location": "/cli/overview/#new-command", 
-            "text": "mio new  service-name   Example  mio new OrderApi", 
+            "text": "1 mio new  service-name    Example  1 mio new OrderApi", 
             "title": "new Command"
         }, 
         {
             "location": "/cli/overview/#init-command", 
-            "text": "mio init", 
+            "text": "1 mio init", 
             "title": "init Command"
         }, 
         {
@@ -172,7 +187,7 @@
         }, 
         {
             "location": "/api/overview/", 
-            "text": "Mission.api\n\n\nOverview\n\n\nCreate new API Project\n\n\nmio new api \napi-name\n\n\n\n\n\n\nExample\n\n\nmio new api DemoApi\n\n\n\n\n\nDecorators\n\n\nRoutable\n\n\n@Routable(\nroute-path\n, \nverbe\n)\n\n\n\n\n\nexample\n\n\n@Routable\n(\n/health\n,\n \nGET\n)\n\n\nexport\n \nclass\n \nUserController\n \n{\n\n    \npublic\n \nstatic\n \nasync\n \ngetUsers\n(\nreq\n: \nRequest\n,\n \nres\n: \nResponse\n,\n \nnext\n: \nNextFunction\n)\n:\n \nPromise\nboolean\n \n{\n\n        \nreturn\n \n{\n \n...\n \n};\n\n    \n}\n\n\n}\n\n\n\n\n\nController\n\n\n\n\nWarning\n\n\nAll methods should be \nstatic async\n.\n\n\nBoth access specifiers (\npublic\n/\nprivate\n) would be exposed as service.\n\n\n\n\nExample:\n\n\n    \n@Routable\n(\n/user\n)\n\n    \nexport\n \nclass\n \nUserRegistrationController\n \n{\n\n        \npublic\n \nstatic\n \nasync\n \ngetUsers\n(\nreq\n: \nRequest\n,\n \nres\n: \nResponse\n,\n \nnext\n: \nNextFunction\n)\n:\n \nPromise\nany\n \n{\n\n            \n...\n\n        \n}\n\n    \n}\n\n\n\n\n\nBuilt-in Controllers\n\n\nHealth Check Controller\n\n\n@Routable\n(\n/health\n,\n \nGET\n)\n\n\nexport\n \nclass\n \nHealthService\n \n{\n\n    \npublic\n \nstatic\n \nasync\n \nliveness\n(\nreq\n: \nRequest\n,\n \nres\n: \nResponse\n,\n \nnext\n: \nNextFunction\n)\n:\n \nPromise\nboolean\n \n{\n\n        \nreturn\n \ntrue\n;\n\n    \n}\n\n    \npublic\n \nstatic\n \nasync\n \nreadyness\n(\nreq\n: \nRequest\n,\n \nres\n: \nResponse\n,\n \nnext\n: \nNextFunction\n)\n:\n \nPromise\nboolean\n \n{\n\n        \nreturn\n \ntrue\n;\n\n    \n}\n\n\n}\n\n\n\nTo Check the liveness of the appliation\n\n\nhttp://localhost:3000/health/liveness\n\n\n\n\n\nTo Check the readyness of the application\n\n\nhttp://localhost:3000/health/readyness\n\n\n\n\n\n\n\nNote\n\n\nReadyness api need to be override to check the readyness of the other resources like Sql / NoSql database, redis cache, etc.\n\n\n\n\nFacade Controller\n\n\nConfiguration\n\n\nWeb Server Configuration\n\n\ninterface\n \nWebServerConfig\n \n{\n\n    \napiPort\n: \nnumber\n;\n\n    \nisHttpsEnabled\n: \nboolean\n;\n\n    \nhttpsCertificatepath\n: \nstring\n;\n\n    \nhttpsKeypath\n: \nstring\n;\n\n    \ncorsOptions\n: \nCorsOptions\n;\n\n\n}\n\n\n\ninterface\n \nCorsOptions\n \n{\n\n    \norigin?\n: \nboolean\n \n|\n \nstring\n \n|\n \nRegExp\n \n|\n \n(\nstring\n \n|\n \nRegExp\n)[]\n \n|\n \nCustomOrigin\n;\n\n    \nmethods?\n: \nstring\n \n|\n \nstring\n[];\n\n    \nallowedHeaders?\n: \nstring\n \n|\n \nstring\n[];\n\n    \nexposedHeaders?\n: \nstring\n \n|\n \nstring\n[];\n\n    \ncredentials?\n: \nboolean\n;\n\n    \nmaxAge?\n: \nnumber\n;\n\n    \npreflightContinue?\n: \nboolean\n;\n\n    \noptionsSuccessStatus?\n: \nnumber\n;\n\n\n}\n\n\n\n\n\nLogger Configuration Interface\n\n\ninterface\n \nLoggerInstance\n \n{\n\n    \nlog\n: \nFunction\n;\n\n    \ninfo\n: \nFunction\n;\n\n    \nwarn\n: \nFunction\n;\n\n    \nerror\n: \nFunction\n;\n\n\n}\n\n\n\nMorgan Logger configuration: \n\n\nSet the following evironment variable. \n\n\nprocess.env.MORGAN = \ndev\n\n\n\n\n\n\nAccepted Values are: \n1. combined\n2. common\n3. dev (default)\n4. short\n5. tiny\n\n\nMore Reference\n\n\nUtil\n\n\nWrap\n\n\nWrap\n((\nreq\n:\nRequest\n,\n \nres\n:\nResponse\n,\n \nnext\n:\nNextFunction\n)\n=\n{});\n\n\n\n\n\nErrorWrap", 
+            "text": "Mission.api\n\n\nOverview\n\n\nQuick Start\n\n\nCreate new API Project\n\n\n1\nmio new api \napi-name\n\n\n\n\n\n\n\nExample\n\n\n1\nmio new api DemoApi\n\n\n\n\n\n\nDecorators\n\n\nRoutable\n\n\n1\n@Routable(\nroute-path\n, \nverbe\n)\n\n\n\n\n\n\nexample\n\n\n1\n2\n3\n4\n5\n6\n@Routable\n(\n/health\n,\n \nGET\n)\n\n\nexport\n \nclass\n \nUserController\n \n{\n\n    \npublic\n \nstatic\n \nasync\n \ngetUsers\n(\nreq\n: \nRequest\n,\n \nres\n: \nResponse\n,\n \nnext\n: \nNextFunction\n)\n:\n \nPromise\nboolean\n \n{\n\n        \nreturn\n \n{\n \n...\n \n};\n\n    \n}\n\n\n}\n\n\n\n\n\n\n\nController\n\n\n\n\nWarning\n\n\nAll methods should be \nstatic async\n.\n\n\nBoth access specifiers (\npublic\n/\nprivate\n) would be exposed as service.\n\n\n\n\nExample:\n\n\n1\n2\n3\n4\n5\n6\n    \n@Routable\n(\n/user\n)\n\n    \nexport\n \nclass\n \nUserRegistrationController\n \n{\n\n        \npublic\n \nstatic\n \nasync\n \ngetUsers\n(\nreq\n: \nRequest\n,\n \nres\n: \nResponse\n,\n \nnext\n: \nNextFunction\n)\n:\n \nPromise\nany\n \n{\n\n            \n...\n\n        \n}\n\n    \n}\n\n\n\n\n\n\n\nBuilt-in Controllers\n\n\nHealth Check Controller\n\n\n1\n2\n3\n4\n5\n6\n7\n8\n9\n@Routable\n(\n/health\n,\n \nGET\n)\n\n\nexport\n \nclass\n \nHealthService\n \n{\n\n    \npublic\n \nstatic\n \nasync\n \nliveness\n(\nreq\n: \nRequest\n,\n \nres\n: \nResponse\n,\n \nnext\n: \nNextFunction\n)\n:\n \nPromise\nboolean\n \n{\n\n        \nreturn\n \ntrue\n;\n\n    \n}\n\n    \npublic\n \nstatic\n \nasync\n \nreadyness\n(\nreq\n: \nRequest\n,\n \nres\n: \nResponse\n,\n \nnext\n: \nNextFunction\n)\n:\n \nPromise\nboolean\n \n{\n\n        \nreturn\n \ntrue\n;\n\n    \n}\n\n\n}\n\n\n\n\n\nTo Check the liveness of the appliation\n\n\n1\nhttp://localhost:3000/health/liveness\n\n\n\n\n\n\nTo Check the readyness of the application\n\n\n1\nhttp://localhost:3000/health/readyness\n\n\n\n\n\n\n\n\nNote\n\n\nReadyness api need to be override to check the readyness of the other resources like Sql / NoSql database, redis cache, etc.\n\n\n\n\nFacade Controller\n\n\nConfiguration\n\n\nWeb Server Configuration\n\n\n 1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13\n14\n15\n16\n17\n18\ninterface\n \nWebServerConfig\n \n{\n\n    \napiPort\n: \nnumber\n;\n\n    \nisHttpsEnabled\n: \nboolean\n;\n\n    \nhttpsCertificatepath\n: \nstring\n;\n\n    \nhttpsKeypath\n: \nstring\n;\n\n    \ncorsOptions\n: \nCorsOptions\n;\n\n\n}\n\n\n\ninterface\n \nCorsOptions\n \n{\n\n    \norigin?\n: \nboolean\n \n|\n \nstring\n \n|\n \nRegExp\n \n|\n \n(\nstring\n \n|\n \nRegExp\n)[]\n \n|\n \nCustomOrigin\n;\n\n    \nmethods?\n: \nstring\n \n|\n \nstring\n[];\n\n    \nallowedHeaders?\n: \nstring\n \n|\n \nstring\n[];\n\n    \nexposedHeaders?\n: \nstring\n \n|\n \nstring\n[];\n\n    \ncredentials?\n: \nboolean\n;\n\n    \nmaxAge?\n: \nnumber\n;\n\n    \npreflightContinue?\n: \nboolean\n;\n\n    \noptionsSuccessStatus?\n: \nnumber\n;\n\n\n}\n\n\n\n\n\nExample: \n\n\n 1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\nimport\n \n{\n \nconfig\n,\n \nDotenvResult\n \n}\n \nfrom\n \ndotenv\n;\n\n\nimport\n \n{\n \nStaticFileConfig\n,\n \nWebServerConfig\n \n}\n \nfrom\n \nmission.api\n;\n\n\n\nconst\n \nenv\n: \nDotenvResult\n \n=\n \nconfig\n();\n\n\nif\n \n(\nenv\n.\nerror\n)\n \n{\n\n    \nthrow\n \nenv\n.\nerror\n;\n\n\n}\n\n\n\nexport\n \nconst\n \nWebConfig\n: \nWebServerConfig\n \n=\n \n{\n\n    \napiPort\n: \nNumber\n(\nprocess\n.\nenv\n.\nWEB_PORT\n),\n\n    \ncorsOptions\n:\n \n{\n\n        \nallowedHeaders\n:\n \n(\nprocess\n.\nenv\n.\nCORS_ALLOWED_HEADERS\n \n||\n \n).\nsplit\n(\n,\n),\n\n        \ncredentials\n: \nBoolean\n(\nprocess\n.\nenv\n.\nCORS_CREDENTIALS\n),\n\n        \nexposedHeaders\n:\n \n(\nprocess\n.\nenv\n.\nCORS_EXPOSED_HEADERS\n \n||\n \n).\nsplit\n(\n,\n),\n\n        \nmaxAge\n: \nNumber\n(\nprocess\n.\nenv\n.\nCORS_MAX_AGE\n),\n\n        \nmethods\n:\n \n(\nprocess\n.\nenv\n.\nCORS_METHODS\n \n||\n \n).\nsplit\n(\n,\n),\n\n        \norigin\n: \nprocess.env.CORS_ORIGIN\n,\n\n    \n},\n\n    \nhttpsCertificatepath\n: \nprocess.env.WEB_SSL_CERTIFICATE_PATH\n \n||\n \n,\n\n    \nhttpsKeypath\n: \nprocess.env.WEB_SSL_KEY_PATH\n \n||\n \n,\n\n    \nisHttpsEnabled\n:\n \n!!\nprocess\n.\nenv\n.\nWEB_SSL_CERTIFICATE_PATH\n,\n\n\n};\n\n\n\nexport\n \nconst\n \nFileConfig\n: \nStaticFileConfig\n \n=\n \n{\n\n    \ndotfiles\n:\n \nignore\n,\n\n    \netag\n: \nfalse\n,\n\n    \nextensions\n:\n \n[\nhtm\n,\n \nhtml\n],\n\n    \nindex\n:\n \n[\nindex.html\n,\n \nindex.htm\n],\n\n    \nmaxAge\n: \nprocess.env.STATIC_FILE_MAX_AGE\n \n||\n \n1d\n,\n\n    \nredirect\n: \nfalse\n,\n\n    \nsetHeaders\n:\n \n(\nres\n: \nany\n,\n \npath\n: \nstring\n,\n \nstat\n: \nstring\n)\n \n=\n \n{\n\n        \nres\n.\nset\n(\nx-timestamp\n,\n \nDate\n.\nnow\n().\ntoString\n());\n\n    \n},\n\n\n};\n\n\n\n\n\n\n\nFinally can create a WebServer instance with this config as follows.\n\n\n 1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\nimport\n \n{\n \nApplicationRoutes\n,\n \nGetRouter\n,\n \nRouter\n,\n \nWebServer\n \n}\n \nfrom\n \nmission.api\n;\n\n\nimport\n \n{\n \nWebConfig\n \n}\n \nfrom\n \n./config\n;\n\n\n\nconst\n \nserver\n \n=\n \nnew\n \nWebServer\n(\nWebConfig\n,\n \nconsole\n);\n\n\n\nimport\n \n./controller\n;\n\n\nconst\n \nroute\n: \nRouter\n \n=\n \nGetRouter\n();\n\n\nroute\n.\nuse\n(\nApplicationRoutes\n);\n\n\n\nserver\n.\ninit\n();\n\n\nserver\n.\naddApiRouting\n(\n/\n,\n \nroute\n);\n\n\nserver\n.\nstart\n();\n\n\n\n\n\n\n\nLogger Configuration Interface\n\n\n1\n2\n3\n4\n5\n6\ninterface\n \nLoggerInstance\n \n{\n\n    \nlog\n: \nFunction\n;\n\n    \ninfo\n: \nFunction\n;\n\n    \nwarn\n: \nFunction\n;\n\n    \nerror\n: \nFunction\n;\n\n\n}\n\n\n\n\n\nMorgan Logger configuration: \n\n\nSet the following evironment variable. \n\n\n1\nprocess.env.MORGAN = \ndev\n\n\n\n\n\n\n\nAccepted Values are: \n1. combined\n2. common\n3. dev (default)\n4. short\n5. tiny\n\n\nMore Reference\n\n\nUtil\n\n\nWrap\n\n\n1\nWrap\n((\nreq\n:\nRequest\n,\n \nres\n:\nResponse\n,\n \nnext\n:\nNextFunction\n)\n=\n{});\n\n\n\n\n\n\n\nErrorWrap", 
             "title": "Overview"
         }, 
         {
@@ -186,8 +201,13 @@
             "title": "Overview"
         }, 
         {
+            "location": "/api/overview/#quick-start", 
+            "text": "", 
+            "title": "Quick Start"
+        }, 
+        {
             "location": "/api/overview/#create-new-api-project", 
-            "text": "mio new api  api-name   Example  mio new api DemoApi", 
+            "text": "1 mio new api  api-name    Example  1 mio new api DemoApi", 
             "title": "Create new API Project"
         }, 
         {
@@ -197,12 +217,12 @@
         }, 
         {
             "location": "/api/overview/#routable", 
-            "text": "@Routable( route-path ,  verbe )  example  @Routable ( /health ,   GET )  export   class   UserController   { \n     public   static   async   getUsers ( req :  Request ,   res :  Response ,   next :  NextFunction ) :   Promise boolean   { \n         return   {   ...   }; \n     }  }", 
+            "text": "1 @Routable( route-path ,  verbe )   example  1\n2\n3\n4\n5\n6 @Routable ( /health ,   GET )  export   class   UserController   { \n     public   static   async   getUsers ( req :  Request ,   res :  Response ,   next :  NextFunction ) :   Promise boolean   { \n         return   {   ...   }; \n     }  }", 
             "title": "Routable"
         }, 
         {
             "location": "/api/overview/#controller", 
-            "text": "Warning  All methods should be  static async .  Both access specifiers ( public / private ) would be exposed as service.   Example:       @Routable ( /user ) \n     export   class   UserRegistrationController   { \n         public   static   async   getUsers ( req :  Request ,   res :  Response ,   next :  NextFunction ) :   Promise any   { \n             ... \n         } \n     }", 
+            "text": "Warning  All methods should be  static async .  Both access specifiers ( public / private ) would be exposed as service.   Example:  1\n2\n3\n4\n5\n6      @Routable ( /user ) \n     export   class   UserRegistrationController   { \n         public   static   async   getUsers ( req :  Request ,   res :  Response ,   next :  NextFunction ) :   Promise any   { \n             ... \n         } \n     }", 
             "title": "Controller"
         }, 
         {
@@ -212,7 +232,7 @@
         }, 
         {
             "location": "/api/overview/#health-check-controller", 
-            "text": "@Routable ( /health ,   GET )  export   class   HealthService   { \n     public   static   async   liveness ( req :  Request ,   res :  Response ,   next :  NextFunction ) :   Promise boolean   { \n         return   true ; \n     } \n     public   static   async   readyness ( req :  Request ,   res :  Response ,   next :  NextFunction ) :   Promise boolean   { \n         return   true ; \n     }  }  \nTo Check the liveness of the appliation  http://localhost:3000/health/liveness  To Check the readyness of the application  http://localhost:3000/health/readyness   Note  Readyness api need to be override to check the readyness of the other resources like Sql / NoSql database, redis cache, etc.", 
+            "text": "1\n2\n3\n4\n5\n6\n7\n8\n9 @Routable ( /health ,   GET )  export   class   HealthService   { \n     public   static   async   liveness ( req :  Request ,   res :  Response ,   next :  NextFunction ) :   Promise boolean   { \n         return   true ; \n     } \n     public   static   async   readyness ( req :  Request ,   res :  Response ,   next :  NextFunction ) :   Promise boolean   { \n         return   true ; \n     }  }   \nTo Check the liveness of the appliation  1 http://localhost:3000/health/liveness   To Check the readyness of the application  1 http://localhost:3000/health/readyness    Note  Readyness api need to be override to check the readyness of the other resources like Sql / NoSql database, redis cache, etc.", 
             "title": "Health Check Controller"
         }, 
         {
@@ -227,12 +247,12 @@
         }, 
         {
             "location": "/api/overview/#web-server-configuration", 
-            "text": "interface   WebServerConfig   { \n     apiPort :  number ; \n     isHttpsEnabled :  boolean ; \n     httpsCertificatepath :  string ; \n     httpsKeypath :  string ; \n     corsOptions :  CorsOptions ;  }  interface   CorsOptions   { \n     origin? :  boolean   |   string   |   RegExp   |   ( string   |   RegExp )[]   |   CustomOrigin ; \n     methods? :  string   |   string []; \n     allowedHeaders? :  string   |   string []; \n     exposedHeaders? :  string   |   string []; \n     credentials? :  boolean ; \n     maxAge? :  number ; \n     preflightContinue? :  boolean ; \n     optionsSuccessStatus? :  number ;  }", 
+            "text": "1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13\n14\n15\n16\n17\n18 interface   WebServerConfig   { \n     apiPort :  number ; \n     isHttpsEnabled :  boolean ; \n     httpsCertificatepath :  string ; \n     httpsKeypath :  string ; \n     corsOptions :  CorsOptions ;  }  interface   CorsOptions   { \n     origin? :  boolean   |   string   |   RegExp   |   ( string   |   RegExp )[]   |   CustomOrigin ; \n     methods? :  string   |   string []; \n     allowedHeaders? :  string   |   string []; \n     exposedHeaders? :  string   |   string []; \n     credentials? :  boolean ; \n     maxAge? :  number ; \n     preflightContinue? :  boolean ; \n     optionsSuccessStatus? :  number ;  }   \nExample:    1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34 import   {   config ,   DotenvResult   }   from   dotenv ;  import   {   StaticFileConfig ,   WebServerConfig   }   from   mission.api ;  const   env :  DotenvResult   =   config ();  if   ( env . error )   { \n     throw   env . error ;  }  export   const   WebConfig :  WebServerConfig   =   { \n     apiPort :  Number ( process . env . WEB_PORT ), \n     corsOptions :   { \n         allowedHeaders :   ( process . env . CORS_ALLOWED_HEADERS   ||   ). split ( , ), \n         credentials :  Boolean ( process . env . CORS_CREDENTIALS ), \n         exposedHeaders :   ( process . env . CORS_EXPOSED_HEADERS   ||   ). split ( , ), \n         maxAge :  Number ( process . env . CORS_MAX_AGE ), \n         methods :   ( process . env . CORS_METHODS   ||   ). split ( , ), \n         origin :  process.env.CORS_ORIGIN , \n     }, \n     httpsCertificatepath :  process.env.WEB_SSL_CERTIFICATE_PATH   ||   , \n     httpsKeypath :  process.env.WEB_SSL_KEY_PATH   ||   , \n     isHttpsEnabled :   !! process . env . WEB_SSL_CERTIFICATE_PATH ,  };  export   const   FileConfig :  StaticFileConfig   =   { \n     dotfiles :   ignore , \n     etag :  false , \n     extensions :   [ htm ,   html ], \n     index :   [ index.html ,   index.htm ], \n     maxAge :  process.env.STATIC_FILE_MAX_AGE   ||   1d , \n     redirect :  false , \n     setHeaders :   ( res :  any ,   path :  string ,   stat :  string )   =   { \n         res . set ( x-timestamp ,   Date . now (). toString ()); \n     },  };    Finally can create a WebServer instance with this config as follows.   1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12 import   {   ApplicationRoutes ,   GetRouter ,   Router ,   WebServer   }   from   mission.api ;  import   {   WebConfig   }   from   ./config ;  const   server   =   new   WebServer ( WebConfig ,   console );  import   ./controller ;  const   route :  Router   =   GetRouter ();  route . use ( ApplicationRoutes );  server . init ();  server . addApiRouting ( / ,   route );  server . start ();", 
             "title": "Web Server Configuration"
         }, 
         {
             "location": "/api/overview/#logger-configuration-interface", 
-            "text": "interface   LoggerInstance   { \n     log :  Function ; \n     info :  Function ; \n     warn :  Function ; \n     error :  Function ;  }  \nMorgan Logger configuration:   Set the following evironment variable.   process.env.MORGAN =  dev   Accepted Values are: \n1. combined\n2. common\n3. dev (default)\n4. short\n5. tiny  More Reference", 
+            "text": "1\n2\n3\n4\n5\n6 interface   LoggerInstance   { \n     log :  Function ; \n     info :  Function ; \n     warn :  Function ; \n     error :  Function ;  }   \nMorgan Logger configuration:   Set the following evironment variable.   1 process.env.MORGAN =  dev    Accepted Values are: \n1. combined\n2. common\n3. dev (default)\n4. short\n5. tiny  More Reference", 
             "title": "Logger Configuration Interface"
         }, 
         {
@@ -242,7 +262,7 @@
         }, 
         {
             "location": "/api/overview/#wrap", 
-            "text": "Wrap (( req : Request ,   res : Response ,   next : NextFunction ) = {});", 
+            "text": "1 Wrap (( req : Request ,   res : Response ,   next : NextFunction ) = {});", 
             "title": "Wrap"
         }, 
         {
