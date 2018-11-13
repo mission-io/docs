@@ -17,7 +17,7 @@
         }, 
         {
             "location": "/home/get-started/", 
-            "text": "Get Started\n\n\n1. Prerequisite\n\n\n\n\n\n\nInstall the \nNodejs\n\n\n\n\n\n\nInstall the \ngit\n.\n\n\n\n\n\n\ninstall the \nVSCode\n\n\n\n\n\n\nInstall the following modules globally\n\n\n\n\ntypescript\n\n\ntslint\n\n\nrimraf \n\n\n\n\n1\nnpm i typescript tslint rimraf -g\n\n\n\n\n\n\n\n\n\n\n2. Install Mission Command Line Interface (CLI)\n\n\n1\nnpm i mission.cli -g\n\n\n\n\n\n\n\n\n3. Verify the CLI installation\n\n\n1\nmio version\n\n\n\n\n\n\n\n\n4. Create new project\n\n\n1\nmio new core demo\n\n\n\n\n\n\n\n\n5. Initialize the project", 
+            "text": "Get Started\n\n\n1. Prerequisite\n\n\n\n\n\n\nInstall the \nNodejs\n\n\n\n\n\n\nInstall the \ngit\n\n\n\n\n\n\ninstall the \nVSCode\n\n\n\n\n\n\nInstall the following modules globally\n\n\n\n\ntypescript\n\n\ntslint\n\n\nrimraf \n\n\n\n\n1\nnpm i typescript tslint rimraf -g\n\n\n\n\n\n\n\n\n\n\n2. Install Mission Command Line Interface (CLI)\n\n\n1\nnpm i mission.cli -g\n\n\n\n\n\n\n\n\n3. Verify the CLI installation\n\n\n1\nmio version\n\n\n\n\n\n\n\n\n4. Create new project\n\n\n1\nmio new core demo\n\n\n\n\n\n\n\n\n5. Initialize the project", 
             "title": "Get started"
         }, 
         {
@@ -27,7 +27,7 @@
         }, 
         {
             "location": "/home/get-started/#1-prerequisite", 
-            "text": "Install the  Nodejs    Install the  git .    install the  VSCode    Install the following modules globally   typescript  tslint  rimraf    1 npm i typescript tslint rimraf -g", 
+            "text": "Install the  Nodejs    Install the  git    install the  VSCode    Install the following modules globally   typescript  tslint  rimraf    1 npm i typescript tslint rimraf -g", 
             "title": "1. Prerequisite"
         }, 
         {
