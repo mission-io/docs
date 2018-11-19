@@ -2,22 +2,12 @@
     "docs": [
         {
             "location": "/", 
-            "text": "MISSION I/0\n\n\nOverview", 
+            "text": "", 
             "title": "Home"
         }, 
         {
-            "location": "/#mission-i0", 
-            "text": "", 
-            "title": "MISSION I/0"
-        }, 
-        {
-            "location": "/#overview", 
-            "text": "", 
-            "title": "Overview"
-        }, 
-        {
             "location": "/home/get-started/", 
-            "text": "Get Started\n\n\n1. Prerequisite\n\n\n\n\n\n\nInstall the \nNodejs\n\n\n\n\n\n\nInstall the \ngit\n\n\n\n\n\n\ninstall the \nVSCode\n\n\n\n\n\n\nInstall the following modules globally\n\n\n\n\ntypescript\n\n\ntslint\n\n\nrimraf \n\n\n\n\n1\nnpm i typescript tslint rimraf -g\n\n\n\n\n\n\n\n\n\n\n2. Install Mission Command Line Interface (CLI)\n\n\n1\nnpm i mission.cli -g\n\n\n\n\n\n\n\n\n3. Verify the CLI installation\n\n\n1\nmio version\n\n\n\n\n\n\n\n\n4. Create new project\n\n\n1\nmio new core demo\n\n\n\n\n\n\n\n\n5. Initialize the project", 
+            "text": "Get Started\n\n\n1. Prerequisite\n\n\n\n\n\n\nInstall the \nNodejs\n\n\n\n\n\n\nInstall the \ngit\n\n\n\n\n\n\ninstall the \nVSCode\n\n\n\n\n\n\nInstall \nmysql\n or \nposgresql\n database\n\n\n\n\n\n\nInstall the following modules globally\n\n\n\n\ntypescript\n\n\ntslint\n\n\nrimraf \n\n\n\n\n1\nnpm i typescript tslint rimraf -g\n\n\n\n\n\n\n\n\n\n\n2. Install Mission Command Line Interface (CLI)\n\n\n1\nnpm i mission.cli -g\n\n\n\n\n\n\nDemo\n\n\n\n\n3. Verify the CLI installation\n\n\n1\nmio version\n\n\n\n\n\n\nDemo\n\n\n\n\n4. Create new project\n\n\n1\nmio new core demo\n\n\n\n\n\n\nDemo\n\n\n\n\n5. Initialize the project\n\n\n1\nmio init\n\n\n\n\n\n\nDemo\n\n\n\n\n6. Add new submodule by CLI\n\n\n1\nmio add service petstore\n\n\n\n\n\n\nDemo\n\n\n\n\n6.1 List added service\n\n\n1\nmio list service\n\n\n\n\n\n\nor\n\n\n1\nmio list\n\n\n\n\n\n\nDemo\n\n\n\n\n7. Add new area to submodule by CLI\n\n\n1\nmio add area master\n\n\n\n\n\n\nDemo\n\n\n\n\n7.1 List added area\n\n\n1\nmio list area\n\n\n\n\n\n\nDemo\n\n\n\n\n8. Map tables to Area by CLI\n\n\n1\nmio add table pets\n\n\n\n\n\n\nDemo\n\n\n\n\n8.1 List mapped tables\n\n\n1\nmio list tables\n\n\n\n\n\n\nDemo\n\n\n\n\n9. Manage submodules by UI\n\n\n1\nmio serve\n\n\n\n\n\n\nDemo\n\n\n\n\n10. Link submodules\n\n\n1\nmio link\n\n\n\n\n\n\n\n\nWarning\n\n\nnpm install\n command will remove the link between the submodules and host modules. So we need to run \nmio link\n every exection of \nnpm install\n or \nnpm i\n command.\n\n\n\n\nDemo\n\n\n\n\n11. Build the project\n\n\n1\nmio build\n\n\n\n\n\n\nDemo", 
             "title": "Get started"
         }, 
         {
@@ -27,7 +17,7 @@
         }, 
         {
             "location": "/home/get-started/#1-prerequisite", 
-            "text": "Install the  Nodejs    Install the  git    install the  VSCode    Install the following modules globally   typescript  tslint  rimraf    1 npm i typescript tslint rimraf -g", 
+            "text": "Install the  Nodejs    Install the  git    install the  VSCode    Install  mysql  or  posgresql  database    Install the following modules globally   typescript  tslint  rimraf    1 npm i typescript tslint rimraf -g", 
             "title": "1. Prerequisite"
         }, 
         {
@@ -36,9 +26,19 @@
             "title": "2. Install Mission Command Line Interface (CLI)"
         }, 
         {
+            "location": "/home/get-started/#demo", 
+            "text": "", 
+            "title": "Demo"
+        }, 
+        {
             "location": "/home/get-started/#3-verify-the-cli-installation", 
             "text": "1 mio version", 
             "title": "3. Verify the CLI installation"
+        }, 
+        {
+            "location": "/home/get-started/#demo_1", 
+            "text": "", 
+            "title": "Demo"
         }, 
         {
             "location": "/home/get-started/#4-create-new-project", 
@@ -46,154 +46,134 @@
             "title": "4. Create new project"
         }, 
         {
-            "location": "/home/get-started/#5-initialize-the-project", 
+            "location": "/home/get-started/#demo_2", 
             "text": "", 
+            "title": "Demo"
+        }, 
+        {
+            "location": "/home/get-started/#5-initialize-the-project", 
+            "text": "1 mio init", 
             "title": "5. Initialize the project"
         }, 
         {
-            "location": "/cli/overview/", 
-            "text": "Mission.cli\n\n\nOverview\n\n\nHow to install\n\n\nLocal installation\n\n\n1\nnpm i mission.cli\n\n\n\n\n\n\nGlobal installation\n\n\n1\nnpm i mission.cli -g\n\n\n\n\n\n\nCommands\n\n\nnew Command\n\n\n1\nmio new \nservice-name\n\n\n\n\n\n\n\nExample\n\n\n1\nmio new OrderApi\n\n\n\n\n\n\ninit Command\n\n\n1\nmio init", 
-            "title": "Overview"
-        }, 
-        {
-            "location": "/cli/overview/#missioncli", 
+            "location": "/home/get-started/#demo_3", 
             "text": "", 
-            "title": "Mission.cli"
+            "title": "Demo"
         }, 
         {
-            "location": "/cli/overview/#overview", 
+            "location": "/home/get-started/#6-add-new-submodule-by-cli", 
+            "text": "1 mio add service petstore", 
+            "title": "6. Add new submodule by CLI"
+        }, 
+        {
+            "location": "/home/get-started/#demo_4", 
             "text": "", 
-            "title": "Overview"
+            "title": "Demo"
         }, 
         {
-            "location": "/cli/overview/#how-to-install", 
+            "location": "/home/get-started/#61-list-added-service", 
+            "text": "1 mio list service   or  1 mio list", 
+            "title": "6.1 List added service"
+        }, 
+        {
+            "location": "/home/get-started/#demo_5", 
             "text": "", 
-            "title": "How to install"
+            "title": "Demo"
         }, 
         {
-            "location": "/cli/overview/#local-installation", 
-            "text": "1 npm i mission.cli", 
-            "title": "Local installation"
+            "location": "/home/get-started/#7-add-new-area-to-submodule-by-cli", 
+            "text": "1 mio add area master", 
+            "title": "7. Add new area to submodule by CLI"
         }, 
         {
-            "location": "/cli/overview/#global-installation", 
-            "text": "1 npm i mission.cli -g", 
-            "title": "Global installation"
-        }, 
-        {
-            "location": "/cli/overview/#commands", 
+            "location": "/home/get-started/#demo_6", 
             "text": "", 
-            "title": "Commands"
+            "title": "Demo"
         }, 
         {
-            "location": "/cli/overview/#new-command", 
-            "text": "1 mio new  service-name    Example  1 mio new OrderApi", 
-            "title": "new Command"
+            "location": "/home/get-started/#71-list-added-area", 
+            "text": "1 mio list area", 
+            "title": "7.1 List added area"
         }, 
         {
-            "location": "/cli/overview/#init-command", 
-            "text": "1 mio init", 
-            "title": "init Command"
-        }, 
-        {
-            "location": "/cli/commands/", 
-            "text": "Commands\n\n\n\n\nmio new\n\n\n\n\n\n\n\n\nS.No\n\n\nTemplate Name\n\n\nCommand\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\n1\n\n\napi\n\n\nmio new api [app-name]\n\n\nCreate mission.api\n\n\n\n\n\n\n2\n\n\ncore\n\n\nmio new core [app-name]\n\n\nCreate mission.core\n\n\n\n\n\n\n3\n\n\nscheduler\n\n\nmio new scheduler [app-name]\n\n\nCreate mission.scheduler\n\n\n\n\n\n\n4\n\n\nmongodb\n\n\nmio new mongodb [app-name]\n\n\nCreate mission.mongodb\n\n\n\n\n\n\n5\n\n\ntsc\n\n\nmio new tsc [app-name]\n\n\nCreate typescript quick start project\n\n\n\n\n\n\n6\n\n\nclient\n\n\nmio new client [app-name]\n\n\nCreate Angular seed project \n(inprogress)\n\n\n\n\n\n\n\n\nmio init\n\n\nInitialize the mission project. It will generate \nmission.json\n file.\n\n\nmio add\n\n\nmio list\n\n\nmio generage\n\n\nmio link\n\n\nmio lint\n\n\nmio build\n\n\nmio serve\n\n\nmio docker\n\n\nmio version\n\n\nmio help", 
-            "title": "Commands"
-        }, 
-        {
-            "location": "/cli/commands/#commands", 
+            "location": "/home/get-started/#demo_7", 
             "text": "", 
-            "title": "Commands"
+            "title": "Demo"
         }, 
         {
-            "location": "/cli/commands/#mio-new", 
-            "text": "S.No  Template Name  Command  Description      1  api  mio new api [app-name]  Create mission.api    2  core  mio new core [app-name]  Create mission.core    3  scheduler  mio new scheduler [app-name]  Create mission.scheduler    4  mongodb  mio new mongodb [app-name]  Create mission.mongodb    5  tsc  mio new tsc [app-name]  Create typescript quick start project    6  client  mio new client [app-name]  Create Angular seed project  (inprogress)", 
-            "title": "mio new"
+            "location": "/home/get-started/#8-map-tables-to-area-by-cli", 
+            "text": "1 mio add table pets", 
+            "title": "8. Map tables to Area by CLI"
         }, 
         {
-            "location": "/cli/commands/#mio-init", 
-            "text": "Initialize the mission project. It will generate  mission.json  file.", 
-            "title": "mio init"
-        }, 
-        {
-            "location": "/cli/commands/#mio-add", 
+            "location": "/home/get-started/#demo_8", 
             "text": "", 
-            "title": "mio add"
+            "title": "Demo"
         }, 
         {
-            "location": "/cli/commands/#mio-list", 
+            "location": "/home/get-started/#81-list-mapped-tables", 
+            "text": "1 mio list tables", 
+            "title": "8.1 List mapped tables"
+        }, 
+        {
+            "location": "/home/get-started/#demo_9", 
             "text": "", 
-            "title": "mio list"
+            "title": "Demo"
         }, 
         {
-            "location": "/cli/commands/#mio-generage", 
+            "location": "/home/get-started/#9-manage-submodules-by-ui", 
+            "text": "1 mio serve", 
+            "title": "9. Manage submodules by UI"
+        }, 
+        {
+            "location": "/home/get-started/#demo_10", 
             "text": "", 
-            "title": "mio generage"
+            "title": "Demo"
         }, 
         {
-            "location": "/cli/commands/#mio-link", 
+            "location": "/home/get-started/#10-link-submodules", 
+            "text": "1 mio link    Warning  npm install  command will remove the link between the submodules and host modules. So we need to run  mio link  every exection of  npm install  or  npm i  command.", 
+            "title": "10. Link submodules"
+        }, 
+        {
+            "location": "/home/get-started/#demo_11", 
             "text": "", 
-            "title": "mio link"
+            "title": "Demo"
         }, 
         {
-            "location": "/cli/commands/#mio-lint", 
+            "location": "/home/get-started/#11-build-the-project", 
+            "text": "1 mio build", 
+            "title": "11. Build the project"
+        }, 
+        {
+            "location": "/home/get-started/#demo_12", 
             "text": "", 
-            "title": "mio lint"
+            "title": "Demo"
         }, 
         {
-            "location": "/cli/commands/#mio-build", 
+            "location": "/home/project-structure/", 
             "text": "", 
-            "title": "mio build"
+            "title": "Project Structure"
         }, 
         {
-            "location": "/cli/commands/#mio-serve", 
+            "location": "/template/overview/", 
             "text": "", 
-            "title": "mio serve"
+            "title": "Add Mongo Db support to existing project"
         }, 
         {
-            "location": "/cli/commands/#mio-docker", 
+            "location": "/template/overview/", 
             "text": "", 
-            "title": "mio docker"
-        }, 
-        {
-            "location": "/cli/commands/#mio-version", 
-            "text": "", 
-            "title": "mio version"
-        }, 
-        {
-            "location": "/cli/commands/#mio-help", 
-            "text": "", 
-            "title": "mio help"
-        }, 
-        {
-            "location": "/cli/cheat-sheet/", 
-            "text": "Cheat Sheet\n\n\n\n\nmio new\n\n\n\n\n\n\n\n\n\n\nS.No\n\n\nTemplate Name\n\n\nCommand\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\n1\n\n\napi\n\n\nmio new api [app-name]\n\n\nCreate mission.api\n\n\n\n\n\n\n2\n\n\ncore\n\n\nmio new core [app-name]\n\n\nCreate mission.core\n\n\n\n\n\n\n3\n\n\nscheduler\n\n\nmio new scheduler [app-name]\n\n\nCreate mission.scheduler\n\n\n\n\n\n\n4\n\n\nmongodb\n\n\nmio new mongodb [app-name]\n\n\nCreate mission.mongodb\n\n\n\n\n\n\n5\n\n\ntsc\n\n\nmio new tsc [app-name]\n\n\nCreate typescript quick start project\n\n\n\n\n\n\n6\n\n\nclient\n\n\nmio new client [app-name]\n\n\nCreate Angular seed project \n(inprogress)\n\n\n\n\n\n\n\n\n\n\nmio init\n\n\nInitialize the mission project. It will generate \nmission.json\n file.\n\n\n\n\n\n\nmio add\n\n\n\n\n\n\nmio list\n\n\n\n\n\n\nmio generage\n\n\n\n\n\n\nmio link\n\n\n\n\n\n\nmio lint\n\n\n\n\n\n\nmio build\n\n\n\n\n\n\nmio serve\n\n\n\n\n\n\nmio docker\n\n\n\n\n\n\nmio version\n\n\n\n\n\n\nmio help", 
-            "title": "Cheat Sheet"
-        }, 
-        {
-            "location": "/cli/cheat-sheet/#cheat-sheet", 
-            "text": "mio new      S.No  Template Name  Command  Description      1  api  mio new api [app-name]  Create mission.api    2  core  mio new core [app-name]  Create mission.core    3  scheduler  mio new scheduler [app-name]  Create mission.scheduler    4  mongodb  mio new mongodb [app-name]  Create mission.mongodb    5  tsc  mio new tsc [app-name]  Create typescript quick start project    6  client  mio new client [app-name]  Create Angular seed project  (inprogress)      mio init  Initialize the mission project. It will generate  mission.json  file.    mio add    mio list    mio generage    mio link    mio lint    mio build    mio serve    mio docker    mio version    mio help", 
-            "title": "Cheat Sheet"
-        }, 
-        {
-            "location": "/cli/credits/", 
-            "text": "Credits\n\n\n\n\ncommand-line-args\n\n\n\n\n\n\ncommand-line-usage\n\n\n\n\n\n\nexpress\n\n\n\n\n\n\nexpress-session\n\n\n\n\n\n\nbody-parser\n\n\n\n\n\n\nchalk\n\n\n\n\n\n\nclear\n\n\n\n\n\n\nclui\n\n\n\n\n\n\narchiver\n\n\n\n\n\n\nfiglet\n\n\n\n\n\n\nfs\n\n\n\n\n\n\ninquirer\n\n\n\n\n\n\nlodash\n\n\n\n\n\n\nmysql2\n\n\n\n\n\n\nopenurl\n\n\n\n\n\n\npath\n\n\n\n\n\n\nprompt\n\n\n\n\n\n\nreplace-in-file\n\n\n\n\n\n\nshelljs\n\n\n\n\n\n\ntable\n\n\n\n\n\n\ntouch\n\n\n\n\n\n\nuglify-es", 
-            "title": "Credits"
-        }, 
-        {
-            "location": "/cli/credits/#credits", 
-            "text": "command-line-args    command-line-usage    express    express-session    body-parser    chalk    clear    clui    archiver    figlet    fs    inquirer    lodash    mysql2    openurl    path    prompt    replace-in-file    shelljs    table    touch    uglify-es", 
-            "title": "Credits"
+            "title": "Create new Mongo Db project"
         }, 
         {
             "location": "/api/overview/", 
-            "text": "Mission.api\n\n\nOverview\n\n\nQuick Start\n\n\nCreate new API Project\n\n\n1\nmio new api \napi-name\n\n\n\n\n\n\n\nExample\n\n\n1\nmio new api DemoApi\n\n\n\n\n\n\nDecorators\n\n\nRoutable\n\n\n1\n@Routable(\nroute-path\n, \nverbe\n)\n\n\n\n\n\n\nexample\n\n\n1\n2\n3\n4\n5\n6\n@Routable\n(\n/health\n,\n \nGET\n)\n\n\nexport\n \nclass\n \nUserController\n \n{\n\n    \npublic\n \nstatic\n \nasync\n \ngetUsers\n(\nreq\n: \nRequest\n,\n \nres\n: \nResponse\n,\n \nnext\n: \nNextFunction\n)\n:\n \nPromise\nboolean\n \n{\n\n        \nreturn\n \n{\n \n...\n \n};\n\n    \n}\n\n\n}\n\n\n\n\n\n\n\nController\n\n\n\n\nWarning\n\n\nAll methods should be \nstatic async\n.\n\n\nBoth access specifiers (\npublic\n/\nprivate\n) would be exposed as service.\n\n\n\n\nExample:\n\n\n1\n2\n3\n4\n5\n6\n    \n@Routable\n(\n/user\n)\n\n    \nexport\n \nclass\n \nUserRegistrationController\n \n{\n\n        \npublic\n \nstatic\n \nasync\n \ngetUsers\n(\nreq\n: \nRequest\n,\n \nres\n: \nResponse\n,\n \nnext\n: \nNextFunction\n)\n:\n \nPromise\nany\n \n{\n\n            \n...\n\n        \n}\n\n    \n}\n\n\n\n\n\n\n\nBuilt-in Controllers\n\n\nHealth Check Controller\n\n\n1\n2\n3\n4\n5\n6\n7\n8\n9\n@Routable\n(\n/health\n,\n \nGET\n)\n\n\nexport\n \nclass\n \nHealthService\n \n{\n\n    \npublic\n \nstatic\n \nasync\n \nliveness\n(\nreq\n: \nRequest\n,\n \nres\n: \nResponse\n,\n \nnext\n: \nNextFunction\n)\n:\n \nPromise\nboolean\n \n{\n\n        \nreturn\n \ntrue\n;\n\n    \n}\n\n    \npublic\n \nstatic\n \nasync\n \nreadyness\n(\nreq\n: \nRequest\n,\n \nres\n: \nResponse\n,\n \nnext\n: \nNextFunction\n)\n:\n \nPromise\nboolean\n \n{\n\n        \nreturn\n \ntrue\n;\n\n    \n}\n\n\n}\n\n\n\n\n\nTo Check the liveness of the appliation\n\n\n1\nhttp://localhost:3000/health/liveness\n\n\n\n\n\n\nTo Check the readyness of the application\n\n\n1\nhttp://localhost:3000/health/readyness\n\n\n\n\n\n\n\n\nNote\n\n\nReadyness api need to be override to check the readyness of the other resources like Sql / NoSql database, redis cache, etc.\n\n\n\n\nFacade Controller\n\n\nConfiguration\n\n\nWeb Server Configuration\n\n\n 1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13\n14\n15\n16\n17\n18\ninterface\n \nWebServerConfig\n \n{\n\n    \napiPort\n: \nnumber\n;\n\n    \nisHttpsEnabled\n: \nboolean\n;\n\n    \nhttpsCertificatepath\n: \nstring\n;\n\n    \nhttpsKeypath\n: \nstring\n;\n\n    \ncorsOptions\n: \nCorsOptions\n;\n\n\n}\n\n\n\ninterface\n \nCorsOptions\n \n{\n\n    \norigin?\n: \nboolean\n \n|\n \nstring\n \n|\n \nRegExp\n \n|\n \n(\nstring\n \n|\n \nRegExp\n)[]\n \n|\n \nCustomOrigin\n;\n\n    \nmethods?\n: \nstring\n \n|\n \nstring\n[];\n\n    \nallowedHeaders?\n: \nstring\n \n|\n \nstring\n[];\n\n    \nexposedHeaders?\n: \nstring\n \n|\n \nstring\n[];\n\n    \ncredentials?\n: \nboolean\n;\n\n    \nmaxAge?\n: \nnumber\n;\n\n    \npreflightContinue?\n: \nboolean\n;\n\n    \noptionsSuccessStatus?\n: \nnumber\n;\n\n\n}\n\n\n\n\n\nExample: \n\n\n 1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\nimport\n \n{\n \nconfig\n,\n \nDotenvResult\n \n}\n \nfrom\n \ndotenv\n;\n\n\nimport\n \n{\n \nStaticFileConfig\n,\n \nWebServerConfig\n \n}\n \nfrom\n \nmission.api\n;\n\n\n\nconst\n \nenv\n: \nDotenvResult\n \n=\n \nconfig\n();\n\n\nif\n \n(\nenv\n.\nerror\n)\n \n{\n\n    \nthrow\n \nenv\n.\nerror\n;\n\n\n}\n\n\n\nexport\n \nconst\n \nWebConfig\n: \nWebServerConfig\n \n=\n \n{\n\n    \napiPort\n: \nNumber\n(\nprocess\n.\nenv\n.\nWEB_PORT\n),\n\n    \ncorsOptions\n:\n \n{\n\n        \nallowedHeaders\n:\n \n(\nprocess\n.\nenv\n.\nCORS_ALLOWED_HEADERS\n \n||\n \n).\nsplit\n(\n,\n),\n\n        \ncredentials\n: \nBoolean\n(\nprocess\n.\nenv\n.\nCORS_CREDENTIALS\n),\n\n        \nexposedHeaders\n:\n \n(\nprocess\n.\nenv\n.\nCORS_EXPOSED_HEADERS\n \n||\n \n).\nsplit\n(\n,\n),\n\n        \nmaxAge\n: \nNumber\n(\nprocess\n.\nenv\n.\nCORS_MAX_AGE\n),\n\n        \nmethods\n:\n \n(\nprocess\n.\nenv\n.\nCORS_METHODS\n \n||\n \n).\nsplit\n(\n,\n),\n\n        \norigin\n: \nprocess.env.CORS_ORIGIN\n,\n\n    \n},\n\n    \nhttpsCertificatepath\n: \nprocess.env.WEB_SSL_CERTIFICATE_PATH\n \n||\n \n,\n\n    \nhttpsKeypath\n: \nprocess.env.WEB_SSL_KEY_PATH\n \n||\n \n,\n\n    \nisHttpsEnabled\n:\n \n!!\nprocess\n.\nenv\n.\nWEB_SSL_CERTIFICATE_PATH\n,\n\n\n};\n\n\n\nexport\n \nconst\n \nFileConfig\n: \nStaticFileConfig\n \n=\n \n{\n\n    \ndotfiles\n:\n \nignore\n,\n\n    \netag\n: \nfalse\n,\n\n    \nextensions\n:\n \n[\nhtm\n,\n \nhtml\n],\n\n    \nindex\n:\n \n[\nindex.html\n,\n \nindex.htm\n],\n\n    \nmaxAge\n: \nprocess.env.STATIC_FILE_MAX_AGE\n \n||\n \n1d\n,\n\n    \nredirect\n: \nfalse\n,\n\n    \nsetHeaders\n:\n \n(\nres\n: \nany\n,\n \npath\n: \nstring\n,\n \nstat\n: \nstring\n)\n \n=\n \n{\n\n        \nres\n.\nset\n(\nx-timestamp\n,\n \nDate\n.\nnow\n().\ntoString\n());\n\n    \n},\n\n\n};\n\n\n\n\n\n\n\nFinally can create a WebServer instance with this config as follows.\n\n\n 1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\nimport\n \n{\n \nApplicationRoutes\n,\n \nGetRouter\n,\n \nRouter\n,\n \nWebServer\n \n}\n \nfrom\n \nmission.api\n;\n\n\nimport\n \n{\n \nWebConfig\n \n}\n \nfrom\n \n./config\n;\n\n\n\nconst\n \nserver\n \n=\n \nnew\n \nWebServer\n(\nWebConfig\n,\n \nconsole\n);\n\n\n\nimport\n \n./controller\n;\n\n\nconst\n \nroute\n: \nRouter\n \n=\n \nGetRouter\n();\n\n\nroute\n.\nuse\n(\nApplicationRoutes\n);\n\n\n\nserver\n.\ninit\n();\n\n\nserver\n.\naddApiRouting\n(\n/\n,\n \nroute\n);\n\n\nserver\n.\nstart\n();\n\n\n\n\n\n\n\nLogger Configuration Interface\n\n\n1\n2\n3\n4\n5\n6\ninterface\n \nLoggerInstance\n \n{\n\n    \nlog\n: \nFunction\n;\n\n    \ninfo\n: \nFunction\n;\n\n    \nwarn\n: \nFunction\n;\n\n    \nerror\n: \nFunction\n;\n\n\n}\n\n\n\n\n\nMorgan Logger configuration: \n\n\nSet the following evironment variable. \n\n\n1\nprocess.env.MORGAN = \ndev\n\n\n\n\n\n\n\nAccepted Values are: \n1. combined\n2. common\n3. dev (default)\n4. short\n5. tiny\n\n\nMore Reference\n\n\nUtil\n\n\nWrap\n\n\n1\nWrap\n((\nreq\n:\nRequest\n,\n \nres\n:\nResponse\n,\n \nnext\n:\nNextFunction\n)\n=\n{});\n\n\n\n\n\n\n\nErrorWrap", 
-            "title": "Overview"
+            "text": "REST Api with \nexpress.js\n\n\nOverview\n\n\nQuick Start\n\n\nCreate new API Project\n\n\n1\nmio new api \napi-name\n\n\n\n\n\n\n\nExample\n\n\n1\nmio new api DemoApi\n\n\n\n\n\n\nDecorators\n\n\nRoutable\n\n\n1\n@Routable(\nroute-path\n, \nverbe\n)\n\n\n\n\n\n\nexample\n\n\n1\n2\n3\n4\n5\n6\n7\n8\nimport\n \n{\n \nRoutable\n \n}\n \nfrom\n \nmission.api\n;\n\n\n\n@Routable\n(\n/health\n,\n \nGET\n)\n\n\nexport\n \nclass\n \nUserController\n \n{\n\n    \npublic\n \nstatic\n \nasync\n \ngetUsers\n(\nreq\n: \nRequest\n,\n \nres\n: \nResponse\n,\n \nnext\n: \nNextFunction\n)\n:\n \nPromise\nboolean\n \n{\n\n        \nreturn\n \n{\n \n...\n \n};\n\n    \n}\n\n\n}\n\n\n\n\n\n\n\nController\n\n\n\n\nWarning\n\n\nAll methods should be \nstatic async\n.\n\n\nBoth access specifiers (\npublic\n/\nprivate\n) would be exposed as service.\n\n\n\n\nExample:\n\n\n1\n2\n3\n4\n5\n6\n    \n@Routable\n(\n/user\n)\n\n    \nexport\n \nclass\n \nUserRegistrationController\n \n{\n\n        \npublic\n \nstatic\n \nasync\n \ngetUsers\n(\nreq\n: \nRequest\n,\n \nres\n: \nResponse\n,\n \nnext\n: \nNextFunction\n)\n:\n \nPromise\nany\n \n{\n\n            \n...\n\n        \n}\n\n    \n}\n\n\n\n\n\n\n\nBuilt-in Controllers\n\n\nHealth Check Controller\n\n\n1\n2\n3\n4\n5\n6\n7\n8\n9\n@Routable\n(\n/health\n,\n \nGET\n)\n\n\nexport\n \nclass\n \nHealthService\n \n{\n\n    \npublic\n \nstatic\n \nasync\n \nliveness\n(\nreq\n: \nRequest\n,\n \nres\n: \nResponse\n,\n \nnext\n: \nNextFunction\n)\n:\n \nPromise\nboolean\n \n{\n\n        \nreturn\n \ntrue\n;\n\n    \n}\n\n    \npublic\n \nstatic\n \nasync\n \nreadyness\n(\nreq\n: \nRequest\n,\n \nres\n: \nResponse\n,\n \nnext\n: \nNextFunction\n)\n:\n \nPromise\nboolean\n \n{\n\n        \nreturn\n \ntrue\n;\n\n    \n}\n\n\n}\n\n\n\n\n\nTo Check the liveness of the appliation\n\n\n1\nhttp://localhost:3000/health/liveness\n\n\n\n\n\n\nTo Check the readyness of the application\n\n\n1\nhttp://localhost:3000/health/readyness\n\n\n\n\n\n\n\n\nNote\n\n\nReadyness api need to be override to check the readyness of the other resources like Sql / NoSql database, redis cache, etc.\n\n\n\n\nFacade Controller\n\n\nConfiguration\n\n\nWeb Server Configuration\n\n\n 1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13\n14\n15\n16\n17\n18\ninterface\n \nWebServerConfig\n \n{\n\n    \napiPort\n: \nnumber\n;\n\n    \nisHttpsEnabled\n: \nboolean\n;\n\n    \nhttpsCertificatepath\n: \nstring\n;\n\n    \nhttpsKeypath\n: \nstring\n;\n\n    \ncorsOptions\n: \nCorsOptions\n;\n\n\n}\n\n\n\ninterface\n \nCorsOptions\n \n{\n\n    \norigin?\n: \nboolean\n \n|\n \nstring\n \n|\n \nRegExp\n \n|\n \n(\nstring\n \n|\n \nRegExp\n)[]\n \n|\n \nCustomOrigin\n;\n\n    \nmethods?\n: \nstring\n \n|\n \nstring\n[];\n\n    \nallowedHeaders?\n: \nstring\n \n|\n \nstring\n[];\n\n    \nexposedHeaders?\n: \nstring\n \n|\n \nstring\n[];\n\n    \ncredentials?\n: \nboolean\n;\n\n    \nmaxAge?\n: \nnumber\n;\n\n    \npreflightContinue?\n: \nboolean\n;\n\n    \noptionsSuccessStatus?\n: \nnumber\n;\n\n\n}\n\n\n\n\n\nExample: \n\n\n 1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\nimport\n \n{\n \nconfig\n,\n \nDotenvResult\n \n}\n \nfrom\n \ndotenv\n;\n\n\nimport\n \n{\n \nStaticFileConfig\n,\n \nWebServerConfig\n \n}\n \nfrom\n \nmission.api\n;\n\n\n\nconst\n \nenv\n: \nDotenvResult\n \n=\n \nconfig\n();\n\n\nif\n \n(\nenv\n.\nerror\n)\n \n{\n\n    \nthrow\n \nenv\n.\nerror\n;\n\n\n}\n\n\n\nexport\n \nconst\n \nWebConfig\n: \nWebServerConfig\n \n=\n \n{\n\n    \napiPort\n: \nNumber\n(\nprocess\n.\nenv\n.\nWEB_PORT\n),\n\n    \ncorsOptions\n:\n \n{\n\n        \nallowedHeaders\n:\n \n(\nprocess\n.\nenv\n.\nCORS_ALLOWED_HEADERS\n \n||\n \n).\nsplit\n(\n,\n),\n\n        \ncredentials\n: \nBoolean\n(\nprocess\n.\nenv\n.\nCORS_CREDENTIALS\n),\n\n        \nexposedHeaders\n:\n \n(\nprocess\n.\nenv\n.\nCORS_EXPOSED_HEADERS\n \n||\n \n).\nsplit\n(\n,\n),\n\n        \nmaxAge\n: \nNumber\n(\nprocess\n.\nenv\n.\nCORS_MAX_AGE\n),\n\n        \nmethods\n:\n \n(\nprocess\n.\nenv\n.\nCORS_METHODS\n \n||\n \n).\nsplit\n(\n,\n),\n\n        \norigin\n: \nprocess.env.CORS_ORIGIN\n,\n\n    \n},\n\n    \nhttpsCertificatepath\n: \nprocess.env.WEB_SSL_CERTIFICATE_PATH\n \n||\n \n,\n\n    \nhttpsKeypath\n: \nprocess.env.WEB_SSL_KEY_PATH\n \n||\n \n,\n\n    \nisHttpsEnabled\n:\n \n!!\nprocess\n.\nenv\n.\nWEB_SSL_CERTIFICATE_PATH\n,\n\n\n};\n\n\n\nexport\n \nconst\n \nFileConfig\n: \nStaticFileConfig\n \n=\n \n{\n\n    \ndotfiles\n:\n \nignore\n,\n\n    \netag\n: \nfalse\n,\n\n    \nextensions\n:\n \n[\nhtm\n,\n \nhtml\n],\n\n    \nindex\n:\n \n[\nindex.html\n,\n \nindex.htm\n],\n\n    \nmaxAge\n: \nprocess.env.STATIC_FILE_MAX_AGE\n \n||\n \n1d\n,\n\n    \nredirect\n: \nfalse\n,\n\n    \nsetHeaders\n:\n \n(\nres\n: \nany\n,\n \npath\n: \nstring\n,\n \nstat\n: \nstring\n)\n \n=\n \n{\n\n        \nres\n.\nset\n(\nx-timestamp\n,\n \nDate\n.\nnow\n().\ntoString\n());\n\n    \n},\n\n\n};\n\n\n\n\n\n\n\nFinally can create a WebServer instance with this config as follows.\n\n\n 1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n10\n11\n12\nimport\n \n{\n \nApplicationRoutes\n,\n \nGetRouter\n,\n \nRouter\n,\n \nWebServer\n \n}\n \nfrom\n \nmission.api\n;\n\n\nimport\n \n{\n \nWebConfig\n \n}\n \nfrom\n \n./config\n;\n\n\n\nconst\n \nserver\n \n=\n \nnew\n \nWebServer\n(\nWebConfig\n,\n \nconsole\n);\n\n\n\nimport\n \n./controller\n;\n\n\nconst\n \nroute\n: \nRouter\n \n=\n \nGetRouter\n();\n\n\nroute\n.\nuse\n(\nApplicationRoutes\n);\n\n\n\nserver\n.\ninit\n();\n\n\nserver\n.\naddApiRouting\n(\n/\n,\n \nroute\n);\n\n\nserver\n.\nstart\n();\n\n\n\n\n\n\n\nLogger Configuration Interface\n\n\n1\n2\n3\n4\n5\n6\ninterface\n \nLoggerInstance\n \n{\n\n    \nlog\n: \nFunction\n;\n\n    \ninfo\n: \nFunction\n;\n\n    \nwarn\n: \nFunction\n;\n\n    \nerror\n: \nFunction\n;\n\n\n}\n\n\n\n\n\nMorgan Logger configuration: \n\n\nSet the following evironment variable. \n\n\n1\nprocess.env.MORGAN = \ndev\n\n\n\n\n\n\n\nAccepted Values are: \n1. combined\n2. common\n3. dev (default)\n4. short\n5. tiny\n\n\nMore Reference\n\n\nUtil\n\n\nWrap\n\n\n1\nWrap\n((\nreq\n:\nRequest\n,\n \nres\n:\nResponse\n,\n \nnext\n:\nNextFunction\n)\n=\n{});\n\n\n\n\n\n\n\nErrorWrap", 
+            "title": "Create REST Api Only"
         }, 
         {
-            "location": "/api/overview/#missionapi", 
+            "location": "/api/overview/#rest-api-with-expressjs", 
             "text": "", 
-            "title": "Mission.api"
+            "title": "REST Api with express.js"
         }, 
         {
             "location": "/api/overview/#overview", 
@@ -217,7 +197,7 @@
         }, 
         {
             "location": "/api/overview/#routable", 
-            "text": "1 @Routable( route-path ,  verbe )   example  1\n2\n3\n4\n5\n6 @Routable ( /health ,   GET )  export   class   UserController   { \n     public   static   async   getUsers ( req :  Request ,   res :  Response ,   next :  NextFunction ) :   Promise boolean   { \n         return   {   ...   }; \n     }  }", 
+            "text": "1 @Routable( route-path ,  verbe )   example  1\n2\n3\n4\n5\n6\n7\n8 import   {   Routable   }   from   mission.api ;  @Routable ( /health ,   GET )  export   class   UserController   { \n     public   static   async   getUsers ( req :  Request ,   res :  Response ,   next :  NextFunction ) :   Promise boolean   { \n         return   {   ...   }; \n     }  }", 
             "title": "Routable"
         }, 
         {
@@ -271,49 +251,84 @@
             "title": "ErrorWrap"
         }, 
         {
-            "location": "/api/credits/", 
-            "text": "Credits\n\n\n\n\nexpress\n\n\nreflect-metadata\n\n\ncors\n\n\nhelmet\n\n\njsonpath\n\n\nlodash\n\n\nmorgan\n\n\nbody-parser\n\n\ncookie-parser\n\n\ncors\n\n\nfs\n\n\n@types", 
-            "title": "Credits"
-        }, 
-        {
-            "location": "/api/credits/#credits", 
-            "text": "express  reflect-metadata  cors  helmet  jsonpath  lodash  morgan  body-parser  cookie-parser  cors  fs  @types", 
-            "title": "Credits"
-        }, 
-        {
-            "location": "/core/overview/", 
+            "location": "/template/overview/", 
             "text": "", 
-            "title": "Overview"
-        }, 
-        {
-            "location": "/core/credits/", 
-            "text": "Credits\n\n\n\n\nsequelize\n\n\nmulter\n\n\nglob", 
-            "title": "Credits"
-        }, 
-        {
-            "location": "/core/credits/#credits", 
-            "text": "sequelize  multer  glob", 
-            "title": "Credits"
-        }, 
-        {
-            "location": "/common/overview/", 
-            "text": "", 
-            "title": "Overview"
+            "title": "Open Api 3.0"
         }, 
         {
             "location": "/template/overview/", 
             "text": "", 
-            "title": "Overview"
+            "title": "Docker"
         }, 
         {
-            "location": "/template/credits/", 
-            "text": "Credits\n\n\n\n\nbwip-js\n\n\ndeasync\n\n\nhandlebars\n\n\nhtml-pdf\n\n\nlodash", 
-            "title": "Credits"
+            "location": "/cli/commands/", 
+            "text": "Mission CLI Commands (mio)\n\n\n\n\nmio new\n\n\n\n\n\n\n\n\nS.No\n\n\nTemplate Name\n\n\nCommand\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\n1\n\n\napi\n\n\nmio new api [app-name]\n\n\nCreate mission.api\n\n\n\n\n\n\n2\n\n\ncore\n\n\nmio new core [app-name]\n\n\nCreate mission.core\n\n\n\n\n\n\n3\n\n\nscheduler\n\n\nmio new scheduler [app-name]\n\n\nCreate mission.scheduler\n\n\n\n\n\n\n4\n\n\nmongodb\n\n\nmio new mongodb [app-name]\n\n\nCreate mission.mongodb\n\n\n\n\n\n\n5\n\n\ntsc\n\n\nmio new tsc [app-name]\n\n\nCreate typescript quick start project\n\n\n\n\n\n\n6\n\n\nclient\n\n\nmio new client [app-name]\n\n\nCreate Angular seed project \n(inprogress)\n\n\n\n\n\n\n\n\nmio init\n\n\nInitialize the mission project. It will update or create \nmission.json\n file.\n\n\nmio add\n\n\nmio list\n\n\nmio generage\n\n\nmio link\n\n\nmio lint\n\n\nmio build\n\n\nmio serve\n\n\nmio docker\n\n\nmio version\n\n\nmio help", 
+            "title": "Commands"
         }, 
         {
-            "location": "/template/credits/#credits", 
-            "text": "bwip-js  deasync  handlebars  html-pdf  lodash", 
-            "title": "Credits"
+            "location": "/cli/commands/#mission-cli-commands-mio", 
+            "text": "", 
+            "title": "Mission CLI Commands (mio)"
+        }, 
+        {
+            "location": "/cli/commands/#mio-new", 
+            "text": "S.No  Template Name  Command  Description      1  api  mio new api [app-name]  Create mission.api    2  core  mio new core [app-name]  Create mission.core    3  scheduler  mio new scheduler [app-name]  Create mission.scheduler    4  mongodb  mio new mongodb [app-name]  Create mission.mongodb    5  tsc  mio new tsc [app-name]  Create typescript quick start project    6  client  mio new client [app-name]  Create Angular seed project  (inprogress)", 
+            "title": "mio new"
+        }, 
+        {
+            "location": "/cli/commands/#mio-init", 
+            "text": "Initialize the mission project. It will update or create  mission.json  file.", 
+            "title": "mio init"
+        }, 
+        {
+            "location": "/cli/commands/#mio-add", 
+            "text": "", 
+            "title": "mio add"
+        }, 
+        {
+            "location": "/cli/commands/#mio-list", 
+            "text": "", 
+            "title": "mio list"
+        }, 
+        {
+            "location": "/cli/commands/#mio-generage", 
+            "text": "", 
+            "title": "mio generage"
+        }, 
+        {
+            "location": "/cli/commands/#mio-link", 
+            "text": "", 
+            "title": "mio link"
+        }, 
+        {
+            "location": "/cli/commands/#mio-lint", 
+            "text": "", 
+            "title": "mio lint"
+        }, 
+        {
+            "location": "/cli/commands/#mio-build", 
+            "text": "", 
+            "title": "mio build"
+        }, 
+        {
+            "location": "/cli/commands/#mio-serve", 
+            "text": "", 
+            "title": "mio serve"
+        }, 
+        {
+            "location": "/cli/commands/#mio-docker", 
+            "text": "", 
+            "title": "mio docker"
+        }, 
+        {
+            "location": "/cli/commands/#mio-version", 
+            "text": "", 
+            "title": "mio version"
+        }, 
+        {
+            "location": "/cli/commands/#mio-help", 
+            "text": "", 
+            "title": "mio help"
         }, 
         {
             "location": "/home/features/", 
@@ -364,36 +379,6 @@
             "location": "/team/contributors/#contributors", 
             "text": "", 
             "title": "Contributors"
-        }, 
-        {
-            "location": "/home/partners/", 
-            "text": "Partners\n\n\n\n\nZerofence", 
-            "title": "Partners"
-        }, 
-        {
-            "location": "/home/partners/#partners", 
-            "text": "Zerofence", 
-            "title": "Partners"
-        }, 
-        {
-            "location": "/home/customers/", 
-            "text": "Customers\n\n\n\n\nHealthmed Technologies", 
-            "title": "Customers"
-        }, 
-        {
-            "location": "/home/customers/#customers", 
-            "text": "Healthmed Technologies", 
-            "title": "Customers"
-        }, 
-        {
-            "location": "/home/release-notes/", 
-            "text": "", 
-            "title": "Release notes"
-        }, 
-        {
-            "location": "/home/license/", 
-            "text": "", 
-            "title": "License"
         }
     ]
 }
