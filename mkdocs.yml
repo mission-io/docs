@@ -1,0 +1,129 @@
+site_name: MISSION I/O
+site_description: Mission modules documentation
+site_author: Natarajan Ganapathi
+site_url: https://github.com/mission-io/mission.docs
+
+# Repository
+repo_name: mission-io/mission.docs
+repo_url: https://github.com/mission-io/mission.docs
+edit_uri: ""
+
+# Copyright
+copyright: 'Copyright &copy; 2018 - 2019 mission.io'
+
+# Configuration
+theme:
+  name: 'material'
+
+  # 404 page
+  static_templates:
+    - 404.html
+
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+  feature:
+    tabs: true
+  palette:
+    primary: indigo
+    accent: indigo
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: img/favicon.png
+  # logo: 'img/logo.jpg'
+  logo:
+     icon: "cloud"
+
+# Customization
+extra:
+  social:
+    # - type: globe
+    #   link: http://www.mission.io
+    - type: github-alt
+      link: https://github.com/mission-io
+    # - type: twitter
+    #   link: https://twitter.com/mission-io
+    - type: linkedin
+      link: https://www.linkedin.com/company/mission-io
+
+# Extensions
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite:
+      guess_lang: false
+      linenums: true
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Page tree
+pages: 
+- Overview:
+  - Home:  index.md
+  - Get started: home/get-started.md
+  - Project Structure: home/project-structure.md
+  # - Cli:
+  #   - Overview: cli/overview.md
+  #   - Commands: cli/commands.md
+  #   - Cheat Sheet: cli/cheat-sheet.md
+  #   - Credits: cli/credits.md
+  # - API:
+  #   - Overview: api/overview.md
+  #   - Credits: api/credits.md
+  # - Core:
+  #   - Overview: core/overview.md
+  #   - Credits: core/credits.md
+  # - Common:
+  #   - Overview: common/overview.md
+  # - Template:
+  #   - Overview: template/overview.md
+  #   - Credits: template/credits.md
+  - Mongo DB:
+      - Add Mongo Db support to existing project: template/overview.md
+      - Create new Mongo Db project: template/overview.md
+  - Create REST Api Only: api/overview.md
+  - Open Api 3.0: template/overview.md
+  - Docker: template/overview.md
+  - Helm: helm/index.md
+  - Commands: cli/commands.md
+
+- Features:
+  - '': home/features.md
+
+- Team:
+  - Core: team/core-team.md
+  - Contributors: team/contributors.md
+# - Partners:
+#   - Partners: home/partners.md
+#   - Customers: home/customers.md
+ 
+# - Release notes: home/release-notes.md
+# - License: home/license.md
+  
+# Google Analytics
+google_analytics:
+  - !!python/object/apply:os.getenv ["GOOGLE_ANALYTICS_KEY"]
+  - auto

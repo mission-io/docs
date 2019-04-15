@@ -1,0 +1,25 @@
+{
+  "name": "mission.docs",
+  "version": "0.0.1",
+  "description": "Misson Docs",
+  "main": "index.js",
+  "scripts": {
+    "build": "mkdocs build -d ./site/docs",
+    "serve": "mkdocs serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://natarajanmca11@bitbucket.org/mission-io/mission.docs.git"
+  },
+  "keywords": [
+    "Mission",
+    "Docs",
+    "cli",
+    "common",
+    "core",
+    "template"
+  ],
+  "author": "Natarajan Ganapathi",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/mission-io/mission.docs#readme"
+}
