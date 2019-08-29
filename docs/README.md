@@ -12,6 +12,12 @@
       3. Express.Js
       4. MongoDb
    4. Reference Architecture
+   5. Recomended Tools
+      1. VS Code 
+         1. Recomended Plugins
+      2. Nodejs
+      3. Git
+      4. npm modules
 3. Create REST Api
    1. Project Structure
    2. Configuration
@@ -76,11 +82,5 @@
     5. Distributed Tracing [zipkin/elk/]()
     6. Kubernetes Service as internal Loadbalancing
     7. Azure DevOps for Code Repository, CI/CD, Board, Issue tracking
-13. Recomended Tools
-    1. VS Code 
-       1. Recomended Plugins
-    2. Nodejs
-    3. Git
-    4. npm modules
-14. Comments and Feedback
+13. Comments and Feedback
     In the spirit of open source, we invite anyone to provide feedback and comments on any reference architecture. Although we review our papers internally, sometimes issues or typographical errors are encountered. Feedback allows us to not only improve the quality of the papers we produce, but allows the reader to provide their thoughts on potential improvements and topic expansion to the papers. Feedback on the papers can be provided by emailing `mission.io@outlook.com`. Please refer to the title within the email.
