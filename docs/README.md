@@ -6,14 +6,24 @@
    1. Prerequisites
       1. Verify the installation
    2. High level architecture overview
-   3. 
+   3. Software stack
+      1. Sequelize
+      2. typescript
+      3. Express.Js
+      4. MongoDb
+   4. Reference Architecture
 3. Create REST Api
    1. Project Structure
-   2. 
+   2. Configuration
+   3. Environment Variables
+   4. 
 4. Create Rest Api for RDMS Database
    1. Project Structure
-   2. Db Configuration
-      1. Read Replication
+   2. Configuration
+      1. DB Configuration
+         1. Read Replication
+      2. CORS Configuration
+      3. 
    2. Request
       1. Simple Query Object
       2. Attributes
@@ -72,3 +82,5 @@
     2. Nodejs
     3. Git
     4. npm modules
+14. Comments and Feedback
+    In the spirit of open source, we invite anyone to provide feedback and comments on any reference architecture. Although we review our papers internally, sometimes issues or typographical errors are encountered. Feedback allows us to not only improve the quality of the papers we produce, but allows the reader to provide their thoughts on potential improvements and topic expansion to the papers. Feedback on the papers can be provided by emailing `mission.io@outlook.com`. Please refer to the title within the email.
