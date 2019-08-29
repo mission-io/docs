@@ -3,9 +3,16 @@
 ## Menus
 1. Overview
 2. Get started
+   1. Prerequisites
+      1. Verify the installation
+   2. High level architecture overview
+   3. 
 3. Create REST Api
+   1. Project Structure
+   2. 
 4. Create Rest Api for RDMS Database
-   1. Db Configuration
+   1. Project Structure
+   2. Db Configuration
       1. Read Replication
    2. Request
       1. Simple Query Object
@@ -21,27 +28,48 @@
     2. Add Scheduler in Existing Project
 8. Open API
     1. Generate Open Api Document
+    2. Generate client Sdk
     2. Add Server 
-    3. User Postman
+    3. Import into Postman 
 9. Containaraization
     1. Docker Build
+       1. Prerequisite
     2. Create Helm Chart
     3. Publish Helm Chart
 10. CLI Commands
     1. List All Commands
-
-## Microservice with Mission modules
----
-### Kubernetes
-   1. Service as internal Loadbalancing
-   2. 
-### DevOps
-   1. Azure DevOps - Repo, CI/CD, Board
-      
-
-1. Circuite Breaker [opossum](https://github.com/nodeshift/opossum)
-2. Api Gateway [Express Gateway](https://github.com/ExpressGateway)
-3. Loadbalancing - Kubernetes Service / Ingress Controller
-4. Proxy/Routing [istio]()
-5. Distributed Tracing [zipkin/elk/]()
-4. 
+    2. Cheat Sheet
+11. Functional modules
+    1. pdfmaker
+       1. Overview
+       2. Run as standalone Container
+       3. Use as submodule in existing module
+       4. issue Tracking
+       5. Contributors
+    2. reference-value
+       1. Overview
+       2. Run as standalone Container
+       3. Use as submodule in existing module
+       4. issue Tracking
+       5. Contributors
+    3. sequence-number
+       1. Overview
+       2. Run as standalone Container
+       3. Use as submodule in existing module
+       4. issue Tracking
+       5. Contributors
+12. Microservice with Mission modules
+   1. Circuite Breaker [opossum](https://github.com/nodeshift/opossum)
+   2. Api Gateway [Express Gateway](https://github.com/ExpressGateway)
+   3. Loadbalancing - Kubernetes Service / Ingress Controller
+   4. Proxy/Routing [istio]()
+   5. Distributed Tracing [zipkin/elk/]()
+   6. Kubernetes Service as internal Loadbalancing
+   7. Azure DevOps for Code Repository, CI/CD, Board, Issue tracking
+13 Recomended Tools
+   1. VS Code 
+      1. Recomended Plugins
+      2. 
+   2. Nodejs
+   3. Git
+   4. npm modules
