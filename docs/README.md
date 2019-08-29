@@ -27,9 +27,21 @@
     1. Docker Build
     2. Create Helm Chart
     3. Publish Helm Chart
-10. 
+10. CLI Commands
+    1. List All Commands
 
 ## Microservice with Mission modules
+---
+### Kubernetes
+   1. Service as internal Loadbalancing
+   2. 
+### DevOps
+   1. Azure DevOps - Repo, CI/CD, Board
+      
+
 1. Circuite Breaker [opossum](https://github.com/nodeshift/opossum)
 2. Api Gateway [Express Gateway](https://github.com/ExpressGateway)
-3. 
+3. Loadbalancing - Kubernetes Service / Ingress Controller
+4. Proxy/Routing [istio]()
+5. Distributed Tracing [zipkin/elk/]()
+4. 
