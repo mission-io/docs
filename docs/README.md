@@ -59,17 +59,16 @@
        4. issue Tracking
        5. Contributors
 12. Microservice with Mission modules
-   1. Circuite Breaker [opossum](https://github.com/nodeshift/opossum)
-   2. Api Gateway [Express Gateway](https://github.com/ExpressGateway)
-   3. Loadbalancing - Kubernetes Service / Ingress Controller
-   4. Proxy/Routing [istio]()
-   5. Distributed Tracing [zipkin/elk/]()
-   6. Kubernetes Service as internal Loadbalancing
-   7. Azure DevOps for Code Repository, CI/CD, Board, Issue tracking
-13 Recomended Tools
-   1. VS Code 
-      1. Recomended Plugins
-      2. 
-   2. Nodejs
-   3. Git
-   4. npm modules
+    1. Circuite Breaker [opossum](https://github.com/nodeshift/opossum)
+    2. Api Gateway [Express Gateway](https://github.com/ExpressGateway)
+    3. Loadbalancing - Kubernetes Service / Ingress Controller
+    4. Proxy/Routing [istio]()
+    5. Distributed Tracing [zipkin/elk/]()
+    6. Kubernetes Service as internal Loadbalancing
+    7. Azure DevOps for Code Repository, CI/CD, Board, Issue tracking
+13. Recomended Tools
+    1. VS Code 
+       1. Recomended Plugins
+    2. Nodejs
+    3. Git
+    4. npm modules
