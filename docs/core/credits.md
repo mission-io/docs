@@ -1,7 +1,0 @@
-# Credits
-
-> sequelize
-
-> multer
-
-> glob

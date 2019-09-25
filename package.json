@@ -4,7 +4,7 @@
   "description": "Misson Docs",
   "main": "index.js",
   "scripts": {
-    "build": "mkdocs build -d ./site/docs",
+    "build": "mkdocs build -d ./site",
     "serve": "mkdocs serve",
     "deploy": "mkdocs gh-deploy"
   },

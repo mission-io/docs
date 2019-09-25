@@ -9,11 +9,11 @@ repo_url: https://github.com/mission-io/mission.docs
 edit_uri: ""
 
 # Copyright
-copyright: 'Copyright &copy; 2018 - 2019 mission.io'
+copyright: "Copyright &copy; 2018 - 2019 mission.io"
 
 # Configuration
 theme:
-  name: 'material'
+  name: "material"
 
   # 404 page
   static_templates:
@@ -36,7 +36,7 @@ theme:
   favicon: img/favicon.png
   # logo: 'img/logo.jpg'
   logo:
-     icon: "cloud"
+    icon: "cloud"
 
 # Customization
 extra:
@@ -80,49 +80,40 @@ markdown_extensions:
   - pymdownx.tilde
 
 # Page tree
-pages: 
-- Overview:
-  - Home:  index.md
-  - Get started: home/get-started.md
-  - Project Structure: home/project-structure.md
-  # - Cli:
-  #   - Overview: cli/overview.md
-  #   - Commands: cli/commands.md
-  #   - Cheat Sheet: cli/cheat-sheet.md
-  #   - Credits: cli/credits.md
-  # - API:
-  #   - Overview: api/overview.md
-  #   - Credits: api/credits.md
-  # - Core:
-  #   - Overview: core/overview.md
-  #   - Credits: core/credits.md
-  # - Common:
-  #   - Overview: common/overview.md
-  # - Template:
-  #   - Overview: template/overview.md
-  #   - Credits: template/credits.md
-  - Mongo DB:
-      - Add Mongo Db support to existing project: template/overview.md
-      - Create new Mongo Db project: template/overview.md
-  - Create REST Api Only: api/overview.md
-  - Open Api 3.0: template/overview.md
-  - Docker: template/overview.md
-  - Helm: helm/index.md
-  - Commands: cli/commands.md
+nav:
+  - Home:
+      - Overview: home/overview.md
+      - Get started: home/get-started.md
+      - Setup: home/setup.md
+      - Architecture: home/architecture.md
+      - Create REST API: home/create-rest-api.md
+      - Create Rest API for RDMS database: home/create-rest-api-for-rdbms-database.md
+      - API Testing and code coverage: home/api-testing-and-code-coverage.md
+      - MongoDB: home/mongodb.md
+      - Scheduler: home/scheduler.md
+      - Open API 3.0: home/open-api-3.0.md
+      - Containaraization: home/containaraization.md
+      - CLI Commands: home/cli-commands.md
+      - Functional modules: # home/functional-modules.md
+          - Pdf Maker: functional-modules/pdf-maker.md
+          - reference-value: functional-modules/reference-value.md
+          - sequence-number: functional-modules/sequence-number.md
+      - Microservice with mission I/O: home/microservice-with-mission-io.md
+      - Contributing: home/contributing.md
+      - Release notes: # home/release-notes.md
+          - mission cli: release-notes/mission.cli.md
+          - mission common: release-notes/mission.common.md
+          - mission api: release-notes/mission.api.md
+          - mission core: release-notes/mission.core.md
+          - mission scheduler: release-notes/mission.scheduler.md
+      - Comments and Feedback: home/comments-and-feedback.md
+      - License: home/license.md
+  - Features:
+      - "": features/features.md
+  - Team:
+      - Core: team/core-team.md
+      - Contributors: team/contributors.md
 
-- Features:
-  - '': home/features.md
-
-- Team:
-  - Core: team/core-team.md
-  - Contributors: team/contributors.md
-# - Partners:
-#   - Partners: home/partners.md
-#   - Customers: home/customers.md
- 
-# - Release notes: home/release-notes.md
-# - License: home/license.md
-  
 # Google Analytics
 google_analytics:
   - !!python/object/apply:os.getenv ["GOOGLE_ANALYTICS_KEY"]
