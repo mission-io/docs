@@ -443,8 +443,29 @@
     Controller
   </a>
   
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#action-result" title="Action Result" class="md-nav__link">
+    Action Result
+  </a>
+  
     <nav class="md-nav">
       <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#json-result-default" title="Json Result (default)" class="md-nav__link">
+    Json Result (default)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#file-download-result" title="File Download Result" class="md-nav__link">
+    File Download Result
+  </a>
+  
+</li>
         
           <li class="md-nav__item">
   <a href="#built-in-controllers" title="Built-in Controllers" class="md-nav__link">
@@ -967,8 +988,29 @@
     Controller
   </a>
   
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#action-result" title="Action Result" class="md-nav__link">
+    Action Result
+  </a>
+  
     <nav class="md-nav">
       <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#json-result-default" title="Json Result (default)" class="md-nav__link">
+    Json Result (default)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#file-download-result" title="File Download Result" class="md-nav__link">
+    File Download Result
+  </a>
+  
+</li>
         
           <li class="md-nav__item">
   <a href="#built-in-controllers" title="Built-in Controllers" class="md-nav__link">
@@ -1096,10 +1138,15 @@
 
 <h2 id="decorators">Decorators<a class="headerlink" href="#decorators" title="Permanent link">&para;</a></h2>
 <h2 id="routable">Routable<a class="headerlink" href="#routable" title="Permanent link">&para;</a></h2>
-<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>@Routable(&#39;route-path&#39;, &#39;verbe&#39;)
-</pre></div>
-</td></tr></table>
-
+<ol>
+<li>@Routable('route-path')</li>
+<li>@Routable('route-path', pre:[])</li>
+</ol>
+<div class="admonition danger">
+<p class="admonition-title">Warning</p>
+<p>Following format is depricated.</p>
+<p>@Routable('route-path', 'verbe')</p>
+</div>
 <p>example</p>
 <table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
 2
@@ -1108,10 +1155,12 @@
 5
 6
 7
-8</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="kr">import</span> <span class="p">{</span> <span class="nx">Routable</span> <span class="p">}</span> <span class="nx">from</span> <span class="s1">&#39;mission.api&#39;</span><span class="p">;</span>
+8
+9</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><span class="kr">import</span> <span class="p">{</span> <span class="nx">Routable</span> <span class="p">}</span> <span class="nx">from</span> <span class="s1">&#39;mission.api&#39;</span><span class="p">;</span>
 
-<span class="kd">@Routable</span><span class="p">(</span><span class="s1">&#39;/health&#39;</span><span class="p">,</span> <span class="s1">&#39;GET&#39;</span><span class="p">)</span>
+<span class="kd">@Routable</span><span class="p">(</span><span class="s1">&#39;/health&#39;</span><span class="p">)</span>
 <span class="kr">export</span> <span class="kr">class</span> <span class="nx">UserController</span> <span class="p">{</span>
+    <span class="kd">@Get</span><span class="p">()</span>
     <span class="kr">public</span> <span class="kr">static</span> <span class="nx">async</span> <span class="nx">getUsers</span><span class="p">(</span><span class="nx">req</span>: <span class="kt">Request</span><span class="p">,</span> <span class="nx">res</span>: <span class="kt">Response</span><span class="p">,</span> <span class="nx">next</span>: <span class="kt">NextFunction</span><span class="p">)</span><span class="o">:</span> <span class="nx">Promise</span><span class="o">&lt;</span><span class="kr">boolean</span><span class="o">&gt;</span> <span class="p">{</span>
         <span class="k">return</span> <span class="p">{</span> <span class="p">...</span> <span class="p">};</span>
     <span class="p">}</span>
@@ -1122,8 +1171,8 @@
 <h2 id="controller">Controller<a class="headerlink" href="#controller" title="Permanent link">&para;</a></h2>
 <div class="admonition danger">
 <p class="admonition-title">Warning</p>
-<p>All methods should be <code>static async</code>.</p>
-<p>Both access specifiers (<code>public</code>/<code>private</code>) would be exposed as service.</p>
+<p>All public methods should be <code>static async</code>.</p>
+<p>Access specifiers <code>public</code> would be exposed to public as REST service.</p>
 </div>
 <p>Example:</p>
 <table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
@@ -1131,8 +1180,10 @@
 3
 4
 5
-6</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>    <span class="kd">@Routable</span><span class="p">(</span><span class="s1">&#39;/user&#39;</span><span class="p">)</span>
+6
+7</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>    <span class="kd">@Routable</span><span class="p">(</span><span class="s1">&#39;/user&#39;</span><span class="p">)</span>
     <span class="kr">export</span> <span class="kr">class</span> <span class="nx">UserRegistrationController</span> <span class="p">{</span>
+        <span class="kd">@Get</span><span class="p">()</span>
         <span class="kr">public</span> <span class="kr">static</span> <span class="nx">async</span> <span class="nx">getUsers</span><span class="p">(</span><span class="nx">req</span>: <span class="kt">Request</span><span class="p">,</span> <span class="nx">res</span>: <span class="kt">Response</span><span class="p">,</span> <span class="nx">next</span>: <span class="kt">NextFunction</span><span class="p">)</span><span class="o">:</span> <span class="nx">Promise</span><span class="o">&lt;</span><span class="nx">any</span><span class="o">&gt;</span> <span class="p">{</span>
             <span class="p">...</span>
         <span class="p">}</span>
@@ -1140,6 +1191,9 @@
 </pre></div>
 </td></tr></table>
 
+<h2 id="action-result">Action Result<a class="headerlink" href="#action-result" title="Permanent link">&para;</a></h2>
+<h3 id="json-result-default">Json Result (default)<a class="headerlink" href="#json-result-default" title="Permanent link">&para;</a></h3>
+<h3 id="file-download-result">File Download Result<a class="headerlink" href="#file-download-result" title="Permanent link">&para;</a></h3>
 <h3 id="built-in-controllers">Built-in Controllers<a class="headerlink" href="#built-in-controllers" title="Permanent link">&para;</a></h3>
 <h3 id="health-check-controller">Health Check Controller<a class="headerlink" href="#health-check-controller" title="Permanent link">&para;</a></h3>
 <p><table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
@@ -1155,7 +1209,7 @@
     <span class="kr">public</span> <span class="kr">static</span> <span class="nx">async</span> <span class="nx">liveness</span><span class="p">(</span><span class="nx">req</span>: <span class="kt">Request</span><span class="p">,</span> <span class="nx">res</span>: <span class="kt">Response</span><span class="p">,</span> <span class="nx">next</span>: <span class="kt">NextFunction</span><span class="p">)</span><span class="o">:</span> <span class="nx">Promise</span><span class="o">&lt;</span><span class="kr">boolean</span><span class="o">&gt;</span> <span class="p">{</span>
         <span class="k">return</span> <span class="kc">true</span><span class="p">;</span>
     <span class="p">}</span>
-    <span class="kr">public</span> <span class="kr">static</span> <span class="nx">async</span> <span class="nx">readyness</span><span class="p">(</span><span class="nx">req</span>: <span class="kt">Request</span><span class="p">,</span> <span class="nx">res</span>: <span class="kt">Response</span><span class="p">,</span> <span class="nx">next</span>: <span class="kt">NextFunction</span><span class="p">)</span><span class="o">:</span> <span class="nx">Promise</span><span class="o">&lt;</span><span class="kr">boolean</span><span class="o">&gt;</span> <span class="p">{</span>
+    <span class="kr">public</span> <span class="kr">static</span> <span class="nx">async</span> <span class="nx">readiness</span><span class="p">(</span><span class="nx">req</span>: <span class="kt">Request</span><span class="p">,</span> <span class="nx">res</span>: <span class="kt">Response</span><span class="p">,</span> <span class="nx">next</span>: <span class="kt">NextFunction</span><span class="p">)</span><span class="o">:</span> <span class="nx">Promise</span><span class="o">&lt;</span><span class="kr">boolean</span><span class="o">&gt;</span> <span class="p">{</span>
         <span class="k">return</span> <span class="kc">true</span><span class="p">;</span>
     <span class="p">}</span>
 <span class="p">}</span>
@@ -1166,14 +1220,14 @@ To Check the liveness of the appliation</p>
 </pre></div>
 </td></tr></table>
 
-<p>To Check the readyness of the application</p>
-<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>http://localhost:3000/health/readyness
+<p>To Check the readiness of the application</p>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>http://localhost:3000/health/readiness
 </pre></div>
 </td></tr></table>
 
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Readyness api need to be override to check the readyness of the other resources like Sql / NoSql database, redis cache, etc.</p>
+<p>Readiness api need to be override to check the readiness of the other resources like Sql / NoSql database, redis cache, etc.</p>
 </div>
 <h3 id="facade-controller">Facade Controller<a class="headerlink" href="#facade-controller" title="Permanent link">&para;</a></h3>
 <h2 id="environment-variables">Environment Variables<a class="headerlink" href="#environment-variables" title="Permanent link">&para;</a></h2>
