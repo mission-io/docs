@@ -11,6 +11,12 @@ Example
 
 ## Routable
 
+1. @Routable('route-path')
+2. @Routable('route-path', pre:[])
+
+!!! danger "Warning"
+    Following format is depricated. Instead use method annotation like @Get(), @Post etc.
+    
     @Routable('route-path', 'verbe')
 
 example
@@ -18,8 +24,9 @@ example
 ``` typescript
 import { Routable } from 'mission.api';
 
-@Routable('/health', 'GET')
+@Routable('/health')
 export class UserController {
+    @Get()
     public static async getUsers(req: Request, res: Response, next: NextFunction): Promise<boolean> {
         return { ... };
     }
@@ -30,9 +37,9 @@ export class UserController {
 ## Controller
     
 !!! danger "Warning"
-    All methods should be `static async`.
+    All public methods should be `static async`.
     
-    Both access specifiers (`public`/`private`) would be exposed as service.
+    Access specifiers `public` would be exposed to public as REST service.
     
 Example:
 
@@ -40,11 +47,16 @@ Example:
 
     @Routable('/user')
     export class UserRegistrationController {
+        @Get()
         public static async getUsers(req: Request, res: Response, next: NextFunction): Promise<any> {
             ...
         }
     }
 ```
+## Action Result
+
+### Json Result (default)
+### File Download Result
 
 ### Built-in Controllers
 
@@ -57,7 +69,7 @@ export class HealthService {
     public static async liveness(req: Request, res: Response, next: NextFunction): Promise<boolean> {
         return true;
     }
-    public static async readyness(req: Request, res: Response, next: NextFunction): Promise<boolean> {
+    public static async readiness(req: Request, res: Response, next: NextFunction): Promise<boolean> {
         return true;
     }
 }
@@ -66,12 +78,12 @@ To Check the liveness of the appliation
     
     http://localhost:3000/health/liveness
 
-To Check the readyness of the application
+To Check the readiness of the application
 
-    http://localhost:3000/health/readyness
+    http://localhost:3000/health/readiness
 
 !!! note "Note"
-    Readyness api need to be override to check the readyness of the other resources like Sql / NoSql database, redis cache, etc.
+    Readiness api need to be override to check the readiness of the other resources like Sql / NoSql database, redis cache, etc.
 
 ### Facade Controller
 
