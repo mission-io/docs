@@ -1,138 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-     <loc>https://github.com/mission-io/mission.docs/home/overview/</loc>
-     <lastmod>2019-09-25</lastmod>
+     <loc>https://mission-io.github.io/docs/home/overview/</loc>
+     <lastmod>2019-09-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/mission-io/mission.docs/home/get-started/</loc>
-     <lastmod>2019-09-25</lastmod>
+     <loc>https://mission-io.github.io/docs/home/get-started/</loc>
+     <lastmod>2019-09-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/mission-io/mission.docs/home/setup/</loc>
-     <lastmod>2019-09-25</lastmod>
+     <loc>https://mission-io.github.io/docs/home/setup/</loc>
+     <lastmod>2019-09-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/mission-io/mission.docs/home/architecture/</loc>
-     <lastmod>2019-09-25</lastmod>
+     <loc>https://mission-io.github.io/docs/home/architecture/</loc>
+     <lastmod>2019-09-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/mission-io/mission.docs/home/create-rest-api/</loc>
-     <lastmod>2019-09-25</lastmod>
+     <loc>https://mission-io.github.io/docs/home/create-rest-api/</loc>
+     <lastmod>2019-09-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/mission-io/mission.docs/home/create-rest-api-for-rdbms-database/</loc>
-     <lastmod>2019-09-25</lastmod>
+     <loc>https://mission-io.github.io/docs/home/create-rest-api-for-rdbms-database/</loc>
+     <lastmod>2019-09-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/mission-io/mission.docs/home/api-testing-and-code-coverage/</loc>
-     <lastmod>2019-09-25</lastmod>
+     <loc>https://mission-io.github.io/docs/home/api-testing-and-code-coverage/</loc>
+     <lastmod>2019-09-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/mission-io/mission.docs/home/mongodb/</loc>
-     <lastmod>2019-09-25</lastmod>
+     <loc>https://mission-io.github.io/docs/home/open-api-3.0/</loc>
+     <lastmod>2019-09-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/mission-io/mission.docs/home/scheduler/</loc>
-     <lastmod>2019-09-25</lastmod>
+     <loc>https://mission-io.github.io/docs/home/containaraization/</loc>
+     <lastmod>2019-09-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/mission-io/mission.docs/home/open-api-3.0/</loc>
-     <lastmod>2019-09-25</lastmod>
+     <loc>https://mission-io.github.io/docs/home/cli-commands/</loc>
+     <lastmod>2019-09-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/mission-io/mission.docs/home/containaraization/</loc>
-     <lastmod>2019-09-25</lastmod>
+     <loc>https://mission-io.github.io/docs/home/microservice-with-mission-io/</loc>
+     <lastmod>2019-09-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/mission-io/mission.docs/home/cli-commands/</loc>
-     <lastmod>2019-09-25</lastmod>
+     <loc>https://mission-io.github.io/docs/home/contributing/</loc>
+     <lastmod>2019-09-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/mission-io/mission.docs/functional-modules/pdf-maker/</loc>
-     <lastmod>2019-09-25</lastmod>
+     <loc>https://mission-io.github.io/docs/home/comments-and-feedback/</loc>
+     <lastmod>2019-09-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/mission-io/mission.docs/functional-modules/reference-value/</loc>
-     <lastmod>2019-09-25</lastmod>
+     <loc>https://mission-io.github.io/docs/home/license/</loc>
+     <lastmod>2019-09-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/mission-io/mission.docs/functional-modules/sequence-number/</loc>
-     <lastmod>2019-09-25</lastmod>
+     <loc>https://mission-io.github.io/docs/mission-modules/mission.common/</loc>
+     <lastmod>2019-09-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/mission-io/mission.docs/home/microservice-with-mission-io/</loc>
-     <lastmod>2019-09-25</lastmod>
+     <loc>https://mission-io.github.io/docs/mission-modules/mission.api/</loc>
+     <lastmod>2019-09-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/mission-io/mission.docs/home/contributing/</loc>
-     <lastmod>2019-09-25</lastmod>
+     <loc>https://mission-io.github.io/docs/mission-modules/mission.core/</loc>
+     <lastmod>2019-09-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/mission-io/mission.docs/release-notes/mission.cli/</loc>
-     <lastmod>2019-09-25</lastmod>
+     <loc>https://mission-io.github.io/docs/mission-modules/mission.cli/</loc>
+     <lastmod>2019-09-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/mission-io/mission.docs/release-notes/mission.common/</loc>
-     <lastmod>2019-09-25</lastmod>
+     <loc>https://mission-io.github.io/docs/mission-modules/mission.scheduler/</loc>
+     <lastmod>2019-09-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/mission-io/mission.docs/release-notes/mission.api/</loc>
-     <lastmod>2019-09-25</lastmod>
+     <loc>https://mission-io.github.io/docs/mission-modules/mission.mongodb/</loc>
+     <lastmod>2019-09-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/mission-io/mission.docs/release-notes/mission.core/</loc>
-     <lastmod>2019-09-25</lastmod>
+     <loc>https://mission-io.github.io/docs/functional-modules/pdf-maker/</loc>
+     <lastmod>2019-09-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/mission-io/mission.docs/release-notes/mission.scheduler/</loc>
-     <lastmod>2019-09-25</lastmod>
+     <loc>https://mission-io.github.io/docs/functional-modules/reference-value/</loc>
+     <lastmod>2019-09-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/mission-io/mission.docs/home/comments-and-feedback/</loc>
-     <lastmod>2019-09-25</lastmod>
+     <loc>https://mission-io.github.io/docs/functional-modules/sequence-number/</loc>
+     <lastmod>2019-09-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/mission-io/mission.docs/home/license/</loc>
-     <lastmod>2019-09-25</lastmod>
+     <loc>https://mission-io.github.io/docs/features/features/</loc>
+     <lastmod>2019-09-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/mission-io/mission.docs/features/features/</loc>
-     <lastmod>2019-09-25</lastmod>
+     <loc>https://mission-io.github.io/docs/team/core-team/</loc>
+     <lastmod>2019-09-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/mission-io/mission.docs/team/core-team/</loc>
-     <lastmod>2019-09-25</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://github.com/mission-io/mission.docs/team/contributors/</loc>
-     <lastmod>2019-09-25</lastmod>
+     <loc>https://mission-io.github.io/docs/team/contributors/</loc>
+     <lastmod>2019-09-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
