@@ -89,19 +89,11 @@ nav:
       - Create REST API: home/create-rest-api.md
       - Create Rest API for RDMS database: home/create-rest-api-for-rdbms-database.md
       - API Testing and code coverage: home/api-testing-and-code-coverage.md
-      # - MongoDB: home/mongodb.md
-      # - Scheduler: home/scheduler.md
       - Open API 3.0: home/open-api-3.0.md
       - Containaraization: home/containaraization.md
       - CLI Commands: home/cli-commands.md
       - Microservice with mission I/O: home/microservice-with-mission-io.md
       - Contributing: home/contributing.md
-      # - Release notes: 
-          # - mission cli: release-notes/mission.cli.md
-          # - mission common: release-notes/mission.common.md
-          # - mission api: release-notes/mission.api.md
-          # - mission core: release-notes/mission.core.md
-          # - mission scheduler: release-notes/mission.scheduler.md
       - Comments and Feedback: home/comments-and-feedback.md
       - License: home/license.md
   - Mission modules:
@@ -113,8 +105,8 @@ nav:
       - mission mongodb: mission-modules/mission.mongodb.md
   - Functional modules:
       - Pdf Maker: functional-modules/pdf-maker.md
-      - reference-value: functional-modules/reference-value.md
-      - sequence-number: functional-modules/sequence-number.md
+      - Reference value: functional-modules/reference-value.md
+      - Sequence number: functional-modules/sequence-number.md
   - Features:
       - "": features/features.md
   - Team:

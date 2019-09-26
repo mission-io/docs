@@ -20,7 +20,8 @@ S.No|Template Name |Command |Description |
 
 !!! note "mio generage"
 
-!!! note "mio link"
+!!! error "mio link"
+    This command is depricated. Instead we use local module reference.
 
 !!! note "mio lint"
 

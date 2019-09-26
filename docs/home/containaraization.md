@@ -1,4 +1,8 @@
 ## Docker Build
+
+```shell
+mio doker build 
+```
 ### Prerequisite
 ## Create Helm Chart
 ## Publish Helm Chart

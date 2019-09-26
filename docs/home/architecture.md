@@ -1,4 +1,4 @@
 ## High level architecture overview
 
-## Reference Architecture
+## Reference architecture
 

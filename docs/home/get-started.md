@@ -41,7 +41,7 @@ mio version # shows mission command line interface version nubmer
     These modules not required for all projects.
 
 [Architecture Overview](architecture.md)
-### Recomended Tools
+## Recomended Tools
 
 ### [VS Code](https://code.visualstudio.com/download)
 Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux. It comes with built-in support for JavaScript, TypeScript and Node.js and has a rich ecosystem of extensions for other languages (such as C++, C#, Java, Python, PHP, Go) and runtimes (such as .NET and Unity)
@@ -83,12 +83,16 @@ Git is a free and open source distributed version control system designed to han
 ### PosgreSql database
 [PosgreSql Download](https://www.postgresql.org/download/) 
 
-### [npm modules](https://www.npmjs.com/)
+### npm modules
 Essential JavaScript development tools that help you go to market faster and build powerful applications using modern open source code.
 
 ```shell
 npm install typescript tslint rimraf mission.cli -g
 ```
+[View npm modules](https://www.npmjs.com/)
+
 ## Optional Tools
-### [Docker](https://www.docker.com/products/docker-desktop)
+### Docker
 The fastest, easiest, and most secure way to deliver containerized applications from development to production.
+
+[Docker Download](https://www.docker.com/products/docker-desktop)
