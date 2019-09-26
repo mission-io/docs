@@ -1,7 +1,7 @@
 site_name: MISSION I/O
 site_description: Mission modules documentation
 site_author: Natarajan Ganapathi
-site_url: https://github.com/mission-io/mission.docs
+site_url: https://mission-io.github.io/docs
 
 # Repository
 repo_name: mission-io/mission.docs
