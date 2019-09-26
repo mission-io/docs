@@ -88,9 +88,13 @@ To Check the readiness of the application
 ### Facade Controller
 
 ## Environment Variables
+All evironment variables configured in `.env` file in root folder. mission development environment allows you to keep multiple environment file in `env` folder like `dev.env`, `prod.env`, `test.env` and chose the file on demand by cli command. 
+
+!!! danger "Warning"
+    Should not edit the `.env` file directly. instead edit the appropriate environment file available in the `env` folder.
 
 ## Configuration
-
+The application configurations available in the `config` folder.
 ### Web Server Configuration
 
 ``` typescript
@@ -113,10 +117,10 @@ interface CorsOptions {
     optionsSuccessStatus?: number;
 }
 ```
+
 Example: 
 
 ``` typescript
-
 import { config, DotenvResult } from 'dotenv';
 import { StaticFileConfig, WebServerConfig } from 'mission.api';
 
@@ -127,7 +131,7 @@ if (env.error) {
 
 export const WebConfig: WebServerConfig = {
     apiPort: Number(process.env.WEB_PORT),
-    corsOptions: {
+    corsOptions: {  
         allowedHeaders: (process.env.CORS_ALLOWED_HEADERS || '').split(','),
         credentials: Boolean(process.env.CORS_CREDENTIALS),
         exposedHeaders: (process.env.CORS_EXPOSED_HEADERS || '').split(','),
@@ -176,9 +180,7 @@ server.start();
 
 ### Logger Configuration Interface
 
-
 ``` typescript 
-
 interface LoggerInstance {
     log: Function;
     info: Function;
@@ -191,11 +193,17 @@ Morgan Logger configuration:
 Set the following evironment variable. 
 
     process.env.MORGAN = 'dev'
+
 Accepted Values are: 
+
 1. combined
+
 2. common
+
 3. dev (default)
+
 4. short
+
 5. tiny
 
 [More Reference](https://www.npmjs.com/package/morgan)
@@ -205,6 +213,7 @@ Accepted Values are:
 ## Util
 
 ### Wrap
+`wrap` middleware is used to handle the promise response and `ResultActions` in generic.
 
 ``` typescript
 Wrap((req:Request, res:Response, next:NextFunction)=>{});
